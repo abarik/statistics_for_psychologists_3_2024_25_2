@@ -1,0 +1,262 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Statistics for Psychologists 3.",
+    "section": "",
+    "text": "Contact\n\nYear: 2024/25/2, Semester 2\nClass Location: ??\nMeeting Times: Tuesday 10:00 - 11:40\nContact Information: Please contact me through email anytime: abari.kalman@arts.unideb.hu\nRegistration table for homework assignments and grades: link to the spreadsheet",
+    "crumbs": [
+      "Contact"
+    ]
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "1  Syllabus",
+    "section": "",
+    "text": "1.1 Course overview",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Syllabus</span>"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#course-overview",
+    "href": "syllabus.html#course-overview",
+    "title": "1  Syllabus",
+    "section": "",
+    "text": "1.1.1 Course Description\nThis course provides psychology students with the theoretical foundation and practical tools to analyze and interpret data involving multiple variables simultaneously. By exploring common multivariate techniques, students learn how to handle complex research questions that go beyond simple bivariate relationships.\n\n\n1.1.2 Key Topics\n\nMultiple Regression\nPrincipal Component Analysis (PCA)\n\nReliability analysis\nFactor Analysis (Exploratory and Confirmatory)\n\nCluster Analysis\nMANOVA (Multivariate Analysis of Variance)\n\nLinear Discriminant Analysis\nLogistics Regression\n\n\n\n1.1.3 Why It’s Important for Psychology\n\nPsychological phenomena often involve multiple, interconnected variables (e.g., cognitive abilities, personality traits, environmental factors).\n\nMultivariate techniques capture these interrelationships more accurately than univariate or bivariate methods.\n\nUnderstanding these tools equips future psychologists and researchers to design robust studies, analyze complex datasets, and draw nuanced conclusions.\n\n\n\n1.1.4 Learning Outcomes\n\nComprehension: Understand the assumptions, theoretical underpinnings, and applicability of various multivariate statistical methods.\n\nApplication: Conduct multivariate analyses using software (e.g., jamovi) and interpret outputs correctly in a psychological context.\n\nCritical Thinking: Evaluate the appropriateness of different multivariate techniques for specific research questions or data structures.\n\nCommunication: Present statistical results effectively and translate them into meaningful insights for both academic and applied psychology settings.\n\n\n\n1.1.5 Format\n\nLectures: Cover theoretical frameworks and conceptual understanding of multivariate methods.\n\nLab Sessions: Practice using datasets and statistical software to apply methods learned in lectures.\n\nAssignments: Students analyze real or simulated psychological data, write reports interpreting their findings, and discuss implications.\n\nBy the end of the course, psychology students will be equipped with a robust understanding of how to explore, model, and interpret high-dimensional data, enabling them to tackle more sophisticated research questions and contribute valuable insights to the field.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Syllabus</span>"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#attendance",
+    "href": "syllabus.html#attendance",
+    "title": "1  Syllabus",
+    "section": "1.2 Attendance",
+    "text": "1.2 Attendance\nActive participation is an important part of this class. Attendance are required. The maximum number of absences from the practical sessions is three. If the student exceeds the maximum number of absences, a practical grade will not be given and a “refused” will be entered in the electronic learning system.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Syllabus</span>"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#assessment",
+    "href": "syllabus.html#assessment",
+    "title": "1  Syllabus",
+    "section": "1.3 Assessment and Grades",
+    "text": "1.3 Assessment and Grades\n\nKahoot Quizzes and Homework assignments to reinforce key concepts.\n\nMidterm and Final Exam assessing theoretical knowledge and ability to interpret results.\n\nDuring the semester there will be 4 homework assignments and one project. In the Table 1.1 you can see the details of the homework assignments and the project. The project will be presented in the last class. The Table 1.1 also shows the deadlines for the homework assignments and the project.\n\n\n\nTable 1.1: Points and deadlines\n\n\n\n\n\nComponents\nPoints\nLinks\nDates\n\n\n\n\nMidterm Exam\n30\n\nApr 14\n\n\nFinal Exam\n30\n\nMay 19\n\n\nHomework assignment\n4 each\nLink\ncontinuously throughout the semester, but no later than May 19th\n\n\nComputer lab assigment\n1 each\nLink\ncontinuously throughout the semester, but no later than May 19th\n\n\nWinning Kahoot Quiz\n3 each\n\ncontinuously throughout the semester\n\n\nMaking Kahoot Quiz\n3 each\n\ncontinuously throughout the semester\n\n\nTOTAL\n100+\n\n\n\n\n\n\n\n\nThe Table 1.1 shows the components of the course and the points that can be earned for each component. The two exams are a midterm and a final exam, each worth 30 points. Practice test questions are available on the eLearning site to help you pass the exam. A minimum score of 16 points must be achieved in each of the two exams to pass. To achieve the maximum point (100), students must also complete homework assignments. Homework assignments include exercises worth 4 points. So, students must complete 10 homework assignments to achieve the maximum point. There is approximately double the number of assignments to choose from. Points can also be increased by winning and/or making a Kahoot quiz or submitting computer labs.\n\n1.3.1 Quick access to homework assignments\nThere are several exercise under each link, each exercise is worth 4 points for a correct answer:\n\nHomework 01\nHomework 02\nHomework 03\nHomework 04\nHomework 05\nHomework 06\nHomework 07\nHomework 08\nHomework 09\nHomework 10\nHomework 11\n\n\n\n1.3.2 Quick access to computer lab assignments\nThere are several exercise under each link, each exercise is worth 4 points for a correct answer:\n\nComputer lab 01\nComputer lab 02\nComputer lab 03\nComputer lab 04\nComputer lab 05\nComputer lab 06\nComputer lab 07\nComputer lab 08\nComputer lab 09\nComputer lab 10\nComputer lab 11\n\n\n\n1.3.3 Grade\nThe Table 1.2 shows the grading scale. A student’s final grade will be determined by the total number of points earned during the semester. The final grade will be determined as follows:\n\n\n\nTable 1.2: Grading\n\n\n\n\n\nPoints\nGrade offered\n\n\n\n\n0–50\n1 (failed)\n\n\n51–60\n2\n\n\n61–74\n3\n\n\n75–85\n4\n\n\n86–\n5\n\n\n\n\n\n\nStudents can earn a maximum of 100 points through the homework assignments and exams, to which extra points are added.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Syllabus</span>"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#course-details",
+    "href": "syllabus.html#course-details",
+    "title": "1  Syllabus",
+    "section": "1.4 Course details",
+    "text": "1.4 Course details\n\nCourse details\n\n\nDay\nTopic\nLinks\n\n\n\n\nFebr 17\nFundamental Concepts and Methods\nDetails\n\n\nFebr 24\nMultiple linear regression I.\nDetails\n\n\nMarch 3\nMultiple linear regression II.\nDetails\n\n\nMarch 10\nPrincipal component analysis\nDetails\n\n\nMarch 17\nReliability analysis\nDetails\n\n\nMarch 24\nExploratory Factor Analysis\nDetails\n\n\nMarch 31\nConfirmatory Factor Analysis\nDetails\n\n\nApr 7\nSpring break\n\n\n\nApr 14\nMidterm exam\n\n\n\nApr 21\nCluster Analysis\nDetails\n\n\nApr 28\nMANOVA\nDetails\n\n\nMay 5\nLinear Discriminant Analysis\nDetails\n\n\nMay 12\nLogistics Regression\nDetails\n\n\nMay 19\nFinal exam",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Syllabus</span>"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#textbooks",
+    "href": "syllabus.html#textbooks",
+    "title": "1  Syllabus",
+    "section": "1.5 Textbooks",
+    "text": "1.5 Textbooks\n\nRequired:\n\nNavarro & Foxcroft (2022)\nPoulson (2019)\nBikos (2024)\n\nOptional texts:\n\nPajankar (2022)\nCote et al. (2021, pp. 1–77)\nGordon & Bataineh (2022, pp. 1–109)\nLanders (2024)",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Syllabus</span>"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#software",
+    "href": "syllabus.html#software",
+    "title": "1  Syllabus",
+    "section": "1.6 Software",
+    "text": "1.6 Software\nThe course requires some software.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Syllabus</span>"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#prerequisites",
+    "href": "syllabus.html#prerequisites",
+    "title": "1  Syllabus",
+    "section": "1.7 Prerequisites",
+    "text": "1.7 Prerequisites\n\nIntroductory courses in Descriptive and Inferential Statistics (e.g., t-tests, ANOVA, basic correlation/regression).\nFamiliarity with at least one statistical software package (e.g. jamovi).\nPrevious courses:\n\nBasic of Mathematics\nStatistics for Psychologists 1.\nStatistics for Psychologists 2.\nComputer Science 1.\nComputer Science 2.\n\n\n\n\n\n\nBikos, L. H. (2024). ReCentering psych stats: psychometrics. https://lhbikos.github.io/ReC_Psychometrics/\n\n\nCote, L. R., Gordon, R., Randell, C. E., Schmitt, J., & Marvin, H. (2021). Introduction to statistics in the psychological sciences (Vol. 25.). https://irl.umsl.edu/oer/25\n\n\nGordon, E. S., & Bataineh, O. (2022). Introduction to applied statistics for psychology students. https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/703/3/Introduction-to-Applied-Statistics-for-Psychology-Students-1590125696.pdf\n\n\nLanders, R. N. (2024). Data science for social scientists. https://datascience.tntlab.org/\n\n\nNavarro, D. J., & Foxcroft, D. R. (2022). Learning statistics with jamovi: A tutorial for psychology students and other beginners. Danielle J. Navarro; David R. Foxcroft. https://doi.org/10.24384/HGC3-7P15\n\n\nPajankar, V. D. P. (2022). Easy statistics with jamovi. Use of jamovi for beginners. SK Print House. https://www.researchgate.net/publication/368387691\n\n\nPoulson, B. (2019). Jamovi. https://datalab.cc/jamovi/",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Syllabus</span>"
+    ]
+  },
+  {
+    "objectID": "details.html",
+    "href": "details.html",
+    "title": "2  Course details",
+    "section": "",
+    "text": "2.1 Fundamental Concepts and Methods in Psychological Statistics",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course details</span>"
+    ]
+  },
+  {
+    "objectID": "details.html#sec-01",
+    "href": "details.html#sec-01",
+    "title": "2  Course details",
+    "section": "",
+    "text": "Readings:\n\nNavarro & Foxcroft (2022)\n\nChapter 1 Why do we learn statistics?\n\nPrevious course material\n\nBasic of Mathematics\nStatistics for Psychologists 1.\nStatistics for Psychologists 2.\nComputer Science 1.\nComputer Science 2.\n\n\nOptional Readings:\n\nÇetinkaya-Rundel & Hardin (2022)\nNavarro & Foxcroft (2022)\n\nComputer lab: Lab 01\nHomework assignments: Homework 01\nPractice Test: Fundamental Concepts and Methods in Psychological Statistics (on the eLearning site)\n\n\n2.1.1 Test your knowledge\nTest your knowledge with the following questions. These questions are based on knowledge that was included in your previous studies.\n\n\n\n\n\n\nWhat is statistics? Why study statistics in psychology?\n\n\n\n\n\nStatistics is the science (and art) of collecting, organizing, analyzing, interpreting, and presenting data. It encompasses methods for:\n\nData Collection: Designing studies, surveys, and experiments to gather reliable information.\n\nData Analysis: Summarizing data (descriptive statistics) and drawing conclusions or inferences (inferential statistics).\n\nInterpretation & Presentation: Communicating findings clearly to support decision-making.\n\nBy applying statistical methods, researchers and analysts can quantify uncertainty, detect patterns, make predictions, and guide evidence-based conclusions in fields such as science, healthcare, business, and social research.\nPsychology students need to study statistics because it enables them to:\n\nInterpret Research\n\nPsychology relies heavily on empirical research. Statistics provide the tools to make sense of data, assess whether observed differences or relationships are meaningful, and understand the implications of research findings.\n\nDesign Valid Experiments\n\nGood experimental design (sampling, control groups, randomization) and robust statistical methods help ensure that results are valid and that biases or confounds are minimized.\n\nEvaluate Theories\n\nPsychological theories are often tested through hypothesis testing. Statistical techniques allow psychologists to evaluate whether evidence supports or refutes these hypotheses.\n\nMake Data-Driven Decisions\n\nWhether in clinical practice, organizational settings, or academic research, psychologists often collect and analyze data (e.g., patient assessments, surveys). Knowing statistics ensures they can interpret results accurately and apply them in decision-making.\n\nCommunicate Findings\n\nUnderstanding statistics helps psychologists properly report results (e.g., effect sizes, p-values, confidence intervals) so that other researchers and professionals can evaluate the reliability and significance of their work.\n\n\n\nFor more details:\n\n\n\n\n\n\n\n\n\n\n\n\nDefine the following fundamental statistics terms: Population, Sample\n\n\n\n\n\n\nPopulation\n\nThe entire set of items or individuals you want to study. For example, “all citizens of a country” could be a population in a study on average income.\n\nSample\n\nA subset of the population used to gather information. Because studying the entire population is often impractical (e.g., time, cost), researchers typically collect data from a sample.\n\n\n\nFor more details:\n\n\n\n\n\n\n\n\n\n\n\nDefine the following fundamental statistics terms: Parameter, Statistic\n\n\n\n\n\n\nParameter\n\nA numerical measure that describes a characteristic of a population (e.g., the true population mean or proportion).\n\nStatistic\n\nA numerical measure that describes a characteristic of a sample. When we estimate population parameters using sample data, we use statistics (e.g., the sample mean or sample proportion).\n\n\n\nFor more details:\n\n\n\n\n\n\n\n\n\n\n\nDefine the following fundamental statistics terms: Dataset, Variable\n\n\n\n\n\n\nVariable\n\nA characteristic or attribute that can take on different values across individuals or items. Examples include age, height, weight, test scores, or income level.\n\nDataset\n\nA dataset in statistics is a structured collection of data—often arranged in a tabular format where each row represents an individual observation (e.g., a person, an event, or a test subject), and each column represents a variable or characteristic measured about those observations. Datasets are the raw material for statistical analysis, where researchers summarize, visualize, and draw inferences about underlying patterns or relationships in the data. Some common synonyms for “dataset” include data collection, data corpus, data table, data matrix, database and data repository.\n\n\n\nFor more details:\n\n\n\n\n\n\n\n\n\n\n\nWhat statistical measurement levels exist?\n\n\n\n\n\nStatistical Levels of Measurement\nTraditionally, four levels of measurement are distinguished in statistics:\n\nNominal:\n\nDefinition: Categories without any inherent order (e.g., gender, blood type).\n\nExample: “Male” vs. “Female” vs. “Other” — these are different categories, and there’s no “greater than” or “less than” relationship.\n\nOrdinal:\n\nDefinition: Categories that have a specific order but unknown or uneven intervals between them (e.g., ratings, ranks).\n\nExample: A satisfaction survey: “Very Dissatisfied,” “Dissatisfied,” “Neutral,” “Satisfied,” “Very Satisfied.” You know the order matters, but you can’t be sure the gap between “Very Dissatisfied” and “Dissatisfied” is the same as between “Satisfied” and “Very Satisfied.”\n\nInterval:\n\nDefinition: Numeric data with consistent intervals but no true zero point (e.g., temperature in Celsius or Fahrenheit).\n\nExample: A temperature of 20°C is exactly 10° higher than 10°C, but 0°C doesn’t mean “no temperature.”\n\nRatio:\n\nDefinition: Numeric data with consistent intervals and a meaningful zero point (e.g., height, weight).\n\nExample: A height of 0 cm indicates the complete absence of height, and a person who is 180 cm tall is exactly twice as tall as someone who is 90 cm tall.\n\n\n\nFor more details:\n\n\n\n\n\n\n\n\n\n\n\nWhy does Jamovi only use Nominal, Ordinal, and Continuous levels?\n\n\n\n\n\n\nCombining Interval and Ratio as “Continuous”: In many statistical analyses, both interval and ratio data can be treated similarly (for example, running the same parametric tests). Because the distinction between interval and ratio often doesn’t affect the type of test or the analysis approach, jamovi simplifies them into a single type called “Continuous.”\n\nNominal and Ordinal: These categories remain separate because ordinal data can be used in certain non-parametric tests (such as a Spearman correlation), while nominal data often requires different methods (such as a chi-square test).\n\nThus, jamovi streamlines user input into three levels—Nominal, Ordinal, Continuous—to cover virtually all common statistical procedures without overcomplicating the process for end users.\n\nFor more details:\n\n\n\n\n\n\n\n\n\n\n\nWhat datasets can jamovi import?\n\n\n\n\n\nJamovi can import data from a wide range of file formats, including:\n\nCSV (comma-separated values) and TSV (tab-separated values)\n\nExcel files (.xls, .xlsx)\n\nSPSS files (.sav)\n\nStata files (.dta)\n\nR files (.RDS, RData)\nJamovi’s own file format (usually .omv)\n\nOnce imported, jamovi displays the data in a spreadsheet-like view, letting you perform statistical analyses without needing to convert the file elsewhere.\n\nFor more details:\n\n\n\n\n\n\n\n\n\n\n\nDefine the following fundamental statistics terms: Categorical Variables, Numeric Variables\n\n\n\n\n\nStatistical variables are traditionally classified into four levels of measurement—nominal, ordinal, interval, and ratio. In practice:\n\nCategorical Variables\n\nTypically nominal (e.g., gender: male/female) or ordinal (e.g., satisfaction levels: “low,” “medium,” “high”).\n\nThese levels categorize data without providing true numeric distances.\n\nNumeric Variables\n\nUsually interval (e.g., temperature in Celsius, no true zero) or ratio (e.g., height, weight, true zero).\n\nThese levels let you quantify distances or ratios between values.\n\n\nThus, the relation is that categorical variables map naturally to nominal/ordinal levels, while numeric variables map to interval/ratio levels.\nA categorical variable (also called a qualitative variable) represents data that can be divided into groups or categories. These categories typically have no numeric relationship to one another.\n\nExamples:\n\nGender (male, female, other)\n\nBlood type (A, B, AB, O)\n\nType of car (SUV, Sedan, Truck)\n\n\nIn contrast, a numerical variable (also called a quantitative variable) represents data that are measured or counted and therefore are inherently numeric.\n\nExamples:\n\nAge (in years)\n\nHeight (in centimeters)\n\nNumber of siblings (integer count)\n\n\nIn short, categorical variables describe qualities or classifications, while numerical variables represent quantities or measurements.\n\nFor more details:\n\n\n\n\n\n\n\n\n\n\n\n\nWhat is Descriptive Vs. Inferential Statistics?\n\n\n\n\n\nDescriptive Statistics\n\nDefinition: Summarize and describe the main features of a dataset.\nExamples:\n\nCentral Tendency: Mean, Median, Mode\nSpread: Range, Variance, Standard Deviation\nVisualizations: Histograms, Box Plots, Pie Charts\n\nPurpose: Provide a straightforward understanding of the data at hand. Descriptive statistics do not make generalizations about any larger population beyond the dataset.\n\nInferential Statistics\n\nDefinition: Draw conclusions or inferences about a broader population based on a sample.\nExamples:\n\nHypothesis Testing: t-tests, ANOVA, Chi-square tests\nEstimation: Confidence Intervals, Margin of Error\nRegression Analysis: Predict outcomes or relationships between variables\n\nPurpose: Go beyond the data at hand to make probabilistic statements about population parameters, assess statistical significance, and forecast unknown values.\n\n\nFor more details:\n\n\n\n\n\n\n\n\n\n\n\n\nWhat tools does descriptive statistics use?\n\n\n\n\n\nDescriptive statistics work with various tools and techniques designed to summarize and describe data in a clear, understandable form. Common tools include:\n\nMeasures of Central Tendency: Mean, Median, and Mode — these summarize where most data points cluster.\nMeasures of Dispersion: Range, Variance, and Standard Deviation — these show how spread out the data is around the central point.\nFrequency Tables: Tables that show how often each value or category appears in the data.\nCharts and Graphs: Such as histograms, bar charts, pie charts, box plots, and scatter plots — visual aids that help identify patterns, trends, and outliers.\nPercentiles and Quartiles: These divide the data set into specific intervals, offering insight into the distribution.\n\nIn everyday language, the terms “charts” and “graphs” are often used interchangeably, but some make a distinction:\n\nCharts are a broad category of data visualization tools—such as bar charts, pie charts, and flowcharts—that may include text, images, or additional labels alongside numeric data to convey information.\nGraphs typically focus on numeric relationships plotted on axes (like line graphs, scatter plots, or histograms). They often emphasize patterns, correlations, or trends in the data points themselves.\n\nDespite these nuances, many people use “chart” and “graph” as general synonyms for visual representations of data.\nIn statistics and data visualization, the term “plot” is often used similarly to “graph,” generally referring to a coordinate-based visual representation of data (e.g., scatter plots, line plots, box plots). Plots tend to focus on the relationship or pattern among data points, typically using an x- and y-axis to convey numeric values and trends.\nIn a nutshell:\n\nChart\n\nA broad category of data visuals that might include images, text labels, or other elements.\n\nExamples: pie chart, bar chart, flowchart.\n\nGraph\n\nA more specific type of diagram often highlighting numeric relationships on axes.\n\nExamples: line graph, histogram, scatter graph.\n\nPlot\n\nTypically used in a mathematical or statistical context to show data points on one or more axes.\n\nEmphasizes patterns, trends, or distributions in numeric data (e.g., scatter plot, box plot).\n\n\n\nFor more details:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhat tools does inferential statistics use?\n\n\n\n\n\nInferential statistics use a variety of analytical techniques to draw conclusions about a population from sample data. Common tools include:\n\nHypothesis Testing\n\nt-tests (e.g., One-Sample, Independent Samples, Paired Samples)\n\nANOVA (Analysis of Variance)\n\nChi-Square Tests (e.g., for categorical data)\n\nNonparametric Tests (e.g., Mann–Whitney U, Wilcoxon Signed-Rank, Kruskal–Wallis)\n\nConfidence Intervals\n\nConfidence intervals around means, proportions, or other statistics\n\nProvide a range of plausible values for a population parameter\n\nRegression Analysis\n\nLinear Regression (simple or multiple)\n\nLogistic Regression (for binary outcomes)\n\nOther Generalized Linear Models (to handle counts, rates, etc.)\n\nCorrelation Analyses\n\nPearson’s Correlation (linear relationship between two continuous variables)\n\nSpearman’s Rank Correlation (for ordinal or non-normal data)\n\nEffect Size Measures\n\nCohen’s d (for differences in means)\n\nOdds Ratios or Relative Risk (in logistic contexts)\n\nEta-squared, Partial eta-squared (ANOVA effect sizes)\n\n\nThese tools, together with proper study design and data collection methods, allow statisticians and researchers to infer broader truths about populations and assess the uncertainty of those inferences.\n\nFor more details:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTypical statistical software packages support four main activities. What are they?\n\n\n\n\n\nStatistical software packages (like Jamovi) facilitate comprehensive data handling and analysis through four main activities:\n1. Data Importation\n- Easily read data from various formats (e.g., CSV, Excel, databases).\n2. Data Preparation for Analysis\n- Clean and organize data to ensure accurate and efficient analysis.\n3. Data Analysis\n- Perform descriptive statistics for data summarization. Conduct inferential statistical analyses for hypothesis testing.\n4. Preparation for Publication\n- Create formatted reports and visualizations ready for sharing and publication.\nStatistical software streamlines the entire research process, from data importation to publication-ready results.\n\n\n\n\n\n\n\n\n\nWhat is tipical data preparation workflow in jamovi?\n\n\n\n\n\nA typical data preparation workflow in jamovi might look like this:\n\nImport the Dataset\n\nOpen jamovi and go to Data → Open, then select your file (e.g., CSV, XLSX, SAV).\n\nDefine Measure Types\n\nClick on the Data tab.\n\nCheck each variable’s measure type (Nominal, Ordinal, Continuous) and rename or relabel variables as needed.\n\nExamine Data Quality\n\nLook for missing values, outliers, or inconsistencies.\n\nDecide how to handle missing data (e.g., remove cases, impute, etc.).\n\nRecode or Compute Variables (If Needed)\n\nUse Data → Computed Variable or Transform to create new variables or recode existing ones (e.g., collapsing categories, creating dummy variables).\n\nFilter or Split Data (If Needed)\n\nUnder Data → Filters, create logical rules to include or exclude certain rows, or separate the dataset into subsets.\n\nQuick Descriptive Check\n\nRun simple descriptive statistics or create histograms in the Exploration → Descriptives menu to ensure data look reasonable and to identify potential issues.\n\n\nOnce you’ve set up your data properly, you can proceed to more advanced descriptive or inferential analyses with confidence that your data are in the correct format and free from major issues.\n\nFor more details:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhat is tipical descriptiv statisics workflow in jamovi?\n\n\n\n\n\nA typical descriptive statistics workflow in jamovi might look like this:\n\nLoad Your Data\n\nOpen jamovi, click Data → Open, and select your dataset (CSV, XLSX, SAV, etc.).\n\nSet Measurement Levels\n\nIn the Data tab, ensure each variable is set to the correct measure type (Nominal, Ordinal, or Continuous).\n\nAccess Descriptives\n\nGo to the Analyses tab, select Exploration, then Descriptives.\n\nChoose Variables\n\nMove the variables you want to analyze into the Variables box.\n\nSelect Statistics and Plots\n\nUnder Statistics, choose the measures (e.g., Mean, Median, Standard Deviation, Min, Max) you want to see.\n\nUnder Plots, you can select options like Histogram, Boxplot, or Density to visualize distributions.\n\nInterpret Output\n\njamovi will produce tables with summary statistics and any chosen graphs. Examine these to understand the distribution, central tendency, and variability of each variable.\n\n\nThis process provides a straightforward, menu-driven way to quickly summarize and visualize your dataset using descriptive statistics in jamovi.\n\nFor more details:\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhat is tipical inferential statisics workflow in jamovi?\n\n\n\n\n\nA typical inferential statistics workflow in jamovi might look like this:\n\nLoad Your Data\n\nOpen jamovi, click Data → Open, and select your dataset (e.g., CSV, XLSX, SAV).\n\nSet Measurement Levels\n\nIn the Data tab, ensure each variable is correctly set to Nominal, Ordinal, or Continuous (jamovi’s simplified approach to measurement levels).\n\nSelect an Appropriate Analysis\n\nUnder the Analyses tab, choose the module that corresponds to your hypothesis test or model (e.g., T-Tests, ANOVA, Regression, Nonparametric, etc.).\n\nDefine Your Variables\n\nMove the relevant variables into the appropriate fields (e.g., “Dependent Variable,” “Independent Variable,” “Grouping Variable,” etc.) as required by the test or model.\n\nCheck Assumptions (If Applicable)\n\nDepending on your analysis, you may check:\n\nNormality (e.g., via Q–Q plots, Shapiro–Wilk test)\nHomogeneity of variances (e.g., Levene’s test)\nLinearity or independence assumptions (in regression)\n\n\nReview Test Results\n\njamovi will produce:\n\nP-values and Confidence Intervals\nEffect Size measures (e.g., Cohen’s d, η², OR)\nDiagnostic plots (for regression, residual plots, etc.)\n\nUse these outputs to decide whether to accept or reject your null hypothesis, or to interpret the strength of any significant relationships.\n\nCommunicate Findings\n\nSummarize your results, including:\n\nDescriptive stats (means, SDs)\nInferential conclusions (statistical significance, effect sizes, confidence intervals)\n\nIf necessary, export your tables and graphs from jamovi into your report or presentation.\n\n\nThis menu-driven approach in jamovi allows researchers to conduct various parametric (e.g., t-tests, ANOVA, linear regression) or nonparametric (e.g., Mann–Whitney, Wilcoxon, Kruskal–Wallis) inferential analyses in a user-friendly environment, helping them draw conclusions about broader populations from sample data.\n\nFor more details:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDefine the following fundamental statistics terms: Mean, Median, Mode\n\n\n\n\n\n\nMean (Average)\n\nThe sum of all data points divided by the number of points (sample or population). It gives a central tendency but can be influenced by extreme values (outliers).\n\nMedian\n\nThe middle value in an ordered list of data. Half the data points lie above it, and half lie below. The median is less sensitive to outliers than the mean.\n\nMode\n\nThe most frequently occurring value(s) in a dataset. A dataset may have one mode (unimodal), more than one mode (multimodal), or no mode at all if no value repeats.\n\n\n\nFor more details:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDefine the following fundamental statistics terms: Variance, Standard Deviation\n\n\n\n\n\n\nVariance\n\nThe average of the squared differences from the mean. It measures how spread out the data is.\n\nStandard Deviation\n\nThe square root of the variance. It is in the same units as the data and also indicates data spread.\n\n\n\nFor more details:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDefine the following fundamental statistics terms: Probability Distribution\n\n\n\n\n\nA function that shows the possible values of a random variable and how often they occur (their probabilities). Common distributions include the Normal (Gaussian) distribution, Binomial distribution, etc.\n\nFor more details:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDefine the following fundamental statistics terms: Hypothesis Testing\n\n\n\n\n\nA procedure to test whether a claim about a population parameter is supported by sample data. It involves:\n-   **Null Hypothesis ($H_0$)**: The default assumption (no effect, no difference).\\\n-   **Alternative Hypothesis ($H_1$ or $H_a$)**: The claim that there is a statistically significant effect or difference.\n\nFor more details:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDefine the following fundamental statistics terms: p-value\n\n\n\n\n\nThe probability of obtaining a result at least as extreme as the one observed in the sample, assuming the null hypothesis is true. A small p-value (typically &lt; 0.05) often leads to rejecting the null hypothesis in favor of the alternative.\n\nFor more details:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDefine the following fundamental statistics terms: Confidence Interval\n\n\n\n\n\nA range of values (e.g., for a mean) that is likely to contain the true population parameter. A 95% confidence interval means that if we repeated the study many times, about 95% of the calculated intervals would contain the true parameter.\nThese concepts form the backbone of most statistical analyses and will come up frequently in any data-driven or research setting.\n\nFor more details:\n\n\n\n\n\n\n\n\n\n\n\n2.1.2 Good to know\nAs we know, statistics has two main branches: descriptive and inferential:\n\nDescriptive statistics summarize and describe the features of a dataset (e.g., calculating means, medians, or visualizing distributions).\n\nInferential statistics draw conclusions or make predictions about a larger population based on sample data (e.g., hypothesis testing, confidence intervals).\n\nHowever, we can also distinguish univariate, bivariate, and multivariate approaches, depending on the number of variables being analyzed:\n\nUnivariate involves a single variable,\n\nBivariate involves two,\n\nMultivariate involves three or more.\n\nThese two frameworks—descriptive vs. inferential, and univariate/bivariate/multivariate—can be combined in various ways to thoroughly explore and interpret data in psychology.\nMultivariate statistics deals with the simultaneous analysis of three or more variables, allowing researchers to uncover complex relationships, interactions, and patterns among multiple constructs that would otherwise remain hidden in simpler (univariate or bivariate) analyses.\n\n2.1.2.1 Where do multivariate analyses come from?\n\nIf we increase the number of independent variables in a simple linear regression, the bivariate analysis immediately becomes a multivariate analysis, which we call multiple linear regression.\nSimilarly, if there is still only one dependent variable but it is categorical, then having multiple independent variables also leads to multivariate statistical methods, namely logistic regression and linear discriminant analysis.\nIf we increase the number of dependent variables in a one-way analysis of variance (ANOVA), we obtain a multivariate analysis of variance (MANOVA).\nThere are also inherently multivariate procedures. They arise from the need to understand complex datasets with multiple variables.\n\nPCA (Principal Component Analysis) reduces dimensionality by identifying the main directions of variance.\n\nReliability Analyses serve to evaluate how consistently a measurement instrument (e.g., a questionnaire or test) captures the construct it intends to measure.\nEFA (Exploratory Factor Analysis) uncovers underlying factors or latent variables without predetermined structure.\n\nCFA (Confirmatory Factor Analysis) tests a hypothesized factor structure, confirming whether measured variables align with theoretical constructs.\n\nCluster Analysis groups similar observations or variables, revealing natural patterns in data.\n\n\nIn this semester we will learn about the above procedures, but of course there are many other multivariate statistical methods, these are illustrated in Figure 2.1.\n\n\n\n\n\n\nFigure 2.1: Multivariate Statistical Methods\n\n\n\n\n\n2.1.2.2 Know the Question First\nAny time we perform a statistical procedure —- even a multivariate one —- we must be clear on what specific question it aims to answer. Without understanding the problem the analysis is designed to solve, it’s impossible to interpret the results correctly. Simply put, knowing the purpose behind a method is as crucial as knowing how to execute it.\nBelow are a few multivariate statistical methods and the main questions they aim to answer:\n\nMultiple Regression:\n\nHow can we predict a single continuous outcome using multiple predictor variables, and which predictors are most influential?\n\nPrincipal Component Analysis (PCA):\n\nHow can we reduce a large set of variables into fewer underlying dimensions (components) while capturing most of the variance?\n\nReliability Analysis:\n\nHow consistent (internally coherent) are the items in my scale or questionnaire when measuring a single construct?\n\nFactor Analysis (Exploratory and Confirmatory):\n\nWhat underlying factors or latent variables explain the correlations among observed items, and do they match my theoretical model?\n\nCluster Analysis:\n\nHow can we group subjects or observations so that each group is internally similar, yet different from other groups?\n\nMANOVA (Multivariate Analysis of Variance):\n\nDo distinct groups differ across multiple continuous outcome variables simultaneously?\n\nLinear Discriminant Analysis:\n\nHow can we classify observations into known groups based on multiple predictors, and which predictors most effectively separate these groups?\n\nLogistic Regression:\n\nWhich predictors best explain or predict the probability of a binary outcome (e.g., success vs. failure), and how strong is each predictor’s effect?",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course details</span>"
+    ]
+  },
+  {
+    "objectID": "details.html#sec-02",
+    "href": "details.html#sec-02",
+    "title": "2  Course details",
+    "section": "2.2 Multiple Regression I.",
+    "text": "2.2 Multiple Regression I.\n\nReadings:\n\nNavarro & Foxcroft (2022)\n\nChapter 12.1 Correlation\nChapter 12.2 Scatterplots\nChapter 12.3 What is a linear regression model?\nChapter 12.4 Estimating a linear regression model\nChapter 12.5 Multiple linear regression\nChapter 12.6 Quantifying the fit of the regression model\nChapter 12.7 Hypothesis tests for regression models\nChapter 12.8 Regarding regression coefficients\n\n\nComputer lab: Lab 02\nHomework assignments: Homework 02\nPractice Test: Multiple Regression I. (on the eLearning site)\n\n\n2.2.1 Good to know",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course details</span>"
+    ]
+  },
+  {
+    "objectID": "details.html#sec-03",
+    "href": "details.html#sec-03",
+    "title": "2  Course details",
+    "section": "2.3 Multiple Regression II.",
+    "text": "2.3 Multiple Regression II.\n\nReadings:\n\nNavarro & Foxcroft (2022)\n\nChapter 12.9 Assumptions of regression\nChapter 12.10 Model checking\nChapter 12.11 Model selection\n\n\nComputer lab: Lab 03\nHomework assignments: Homework 03\nPractice Test: Multiple Regression II. (on the eLearning site)\n\n\n2.3.1 Good to know",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course details</span>"
+    ]
+  },
+  {
+    "objectID": "details.html#sec-04",
+    "href": "details.html#sec-04",
+    "title": "2  Course details",
+    "section": "2.4 Principal Component Analysis",
+    "text": "2.4 Principal Component Analysis\n\nReadings:\n\nBikos (2024)\n\nChapter 8 Principal Components Analysis\n\n\nOptional Readings:\n\nGruijters (2019)\nhttps://web.pdx.edu/~newsomj/mvclass/\nhttps://www.stat-help.com/\n\nComputer lab: Lab 04\nHomework assignments: Homework 04\nPractice Test: Principal Component Analysis (on the eLearning site)\n\n\n2.4.1 Good to know",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course details</span>"
+    ]
+  },
+  {
+    "objectID": "details.html#sec-05",
+    "href": "details.html#sec-05",
+    "title": "2  Course details",
+    "section": "2.5 Reliability analysis",
+    "text": "2.5 Reliability analysis\n\nReadings:\n\nBikos (2024)\n\nChapter 5 Reliability\n\n\nComputer lab: Lab 05\nHomework assignments: Homework 05\nPractice Test: Reliability analysis (on the eLearning site)\n\n\n2.5.1 Good to know\nhttps://youtu.be/u8W0fJVXoNc?si=_GcBXza7QSglgsnS",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course details</span>"
+    ]
+  },
+  {
+    "objectID": "details.html#sec-06",
+    "href": "details.html#sec-06",
+    "title": "2  Course details",
+    "section": "2.6 Exploratory Factor Analysis",
+    "text": "2.6 Exploratory Factor Analysis\n\nReadings:\n\nBikos (2024)\n\nChapter 9 Principal Axis Factoring\n\n\nComputer lab: Lab 06\nHomework assignments: Homework 06\nPractice Test: Exploratory Factor Analysis (on the eLearning site)\n\n\n2.6.1 Good to know",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course details</span>"
+    ]
+  },
+  {
+    "objectID": "details.html#sec-07",
+    "href": "details.html#sec-07",
+    "title": "2  Course details",
+    "section": "2.7 Confirmatory Factor Analysis",
+    "text": "2.7 Confirmatory Factor Analysis\n\nReadings:\n\nBikos (2024)\n\nChapter 10 CFA: First Order Models\n\n\nComputer lab: Lab 07\nHomework assignments: Homework 07\nPractice Test: Confirmatory Factor Analysis (on the eLearning site)\n\n\n2.7.1 Good to know",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course details</span>"
+    ]
+  },
+  {
+    "objectID": "details.html#sec-08",
+    "href": "details.html#sec-08",
+    "title": "2  Course details",
+    "section": "2.8 Cluster Analysis",
+    "text": "2.8 Cluster Analysis\n\nReadings:\n\nGao et al. (2023)\nhttps://www.receptiviti.com/post/the-marketers-guide-to-psycholinguistic-cluster-analysis\nhttps://siddharthgargblog.wordpress.com/2020/06/17/using-cluster-analysis-in-psychology/\n\nComputer lab: Lab 08\nHomework assignments: Homework 08\nPractice Test: Cluster Analysis (on the eLearning site)\n\n\n2.8.1 Good to know",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course details</span>"
+    ]
+  },
+  {
+    "objectID": "details.html#sec-09",
+    "href": "details.html#sec-09",
+    "title": "2  Course details",
+    "section": "2.9 MANOVA",
+    "text": "2.9 MANOVA\n\nReadings:\n\nhttps://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=52eff0488d0b93ea4a259815148faeb3e9646600\nhttps://journals.sagepub.com/eprint/RCFMVUUJ4QP5JGGJKG5W/full\n\nComputer lab: Lab 09\nHomework assignments: Homework 09\nPractice Test: MANOVA (on the eLearning site)\n\n\n2.9.1 Good to know",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course details</span>"
+    ]
+  },
+  {
+    "objectID": "details.html#sec-10",
+    "href": "details.html#sec-10",
+    "title": "2  Course details",
+    "section": "2.10 Linear Discriminant Analysis",
+    "text": "2.10 Linear Discriminant Analysis\n\nReadings:\n\nhttps://little-book-of-r-for-multivariate-analysis.readthedocs.io/en/latest/\nhttps://towardsdatascience.com/linear-discriminant-analysis-lda-598d8e90f8b9\n\nComputer lab: Lab 10\nHomework assignments: Homework 10\nPractice Test: Linear Discriminant Analysis (on the eLearning site)\n\n\n2.10.1 Good to know",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course details</span>"
+    ]
+  },
+  {
+    "objectID": "details.html#sec-011",
+    "href": "details.html#sec-011",
+    "title": "2  Course details",
+    "section": "2.11 Logistics Regression",
+    "text": "2.11 Logistics Regression\n\nReadings:\n\nhttps://peopleanalytics-regression-book.org/bin-log-reg.html https://bookdown.org/chua/ber642_advanced_regression/binary-logistic-regression.html\nhttps://www.youtube.com/watch?v=La7pf458uPQ\nhttps://avehtari.github.io/ROS-Examples/examples.html#Examples_by_chapters\n\nComputer lab: Lab 11\nHomework assignments: Homework 11\nPractice Test: Logistics Regression (on the eLearning site)\n\n\n2.11.1 Good to know\n\n\n\n\nBikos, L. H. (2024). ReCentering psych stats: psychometrics. https://lhbikos.github.io/ReC_Psychometrics/\n\n\nÇetinkaya-Rundel, M., & Hardin, J. (2022). Welcome to modern statistical methods for psychology. https://bookdown.org/gregcox7/ims_psych/\n\n\nGao, C. X., Dwyer, D., Zhu, Y., Smith, C. L., Du, L., Filia, K. M., Bayer, J., Menssink, J. M., Wang, T., Bergmeir, C., Wood, S., & Cotton, S. M. (2023). An overview of clustering methods with guidelines for application in mental health research. Psychiatry Research, 327, 115265. https://doi.org/10.1016/j.psychres.2023.115265\n\n\nGruijters, S. L. K. (2019). Using principal component analysis to validate psychological scales: Bad statistical habits we should have broken yesterday II. European Health Psychologis, 20(5), 544–549. https://doi.org/10.31234/osf.io/qbe6k\n\n\nNavarro, D. J., & Foxcroft, D. R. (2022). Learning statistics with jamovi: A tutorial for psychology students and other beginners. Danielle J. Navarro; David R. Foxcroft. https://doi.org/10.24384/HGC3-7P15",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course details</span>"
+    ]
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "3  Software",
+    "section": "",
+    "text": "Please install the latest version of Jamovi on your computer:\n\nJamovi [Available from url: https://www.jamovi.org/download.html. Choose the current version.]\n\nIt is a good idea to install the latest versions of the following tools on your computer:\n\nR [Available from url: https://cloud.r-project.org/.]\nRStudio [Available from url: https://posit.co/download/rstudio-desktop/. Choose the free RStudio Desktop.]\nJabRef [Available from url: https://www.jabref.org/#download.]\nMendeley Desktop [Available from url: https://www.mendeley.com/download-reference-manager. Mendeley Desktop is an alternative to the JabRef. We won’t use it in the course, but it’s a good reference manager.]",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Software</span>"
+    ]
+  },
+  {
+    "objectID": "academic_calendar.html",
+    "href": "academic_calendar.html",
+    "title": "4  Schedule of the Academic Year",
+    "section": "",
+    "text": "I. (AUTUMN) SEMESTER",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Schedule of the Academic Year</span>"
+    ]
+  },
+  {
+    "objectID": "academic_calendar.html#i.-autumn-semester",
+    "href": "academic_calendar.html#i.-autumn-semester",
+    "title": "4  Schedule of the Academic Year",
+    "section": "",
+    "text": "Registration period: 2 – 6 September, 2024 (Monday-Sunday)\nStudy period: 9 September – 13 December, 2024 (14 weeks)\nAutumn break: 21 – 25 October, 2024 (1 week)\nExam period:\n\n16 – 20 December, 2024 (1 week)\n6 January – 14 February, 2024 (6 weeks)",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Schedule of the Academic Year</span>"
+    ]
+  },
+  {
+    "objectID": "academic_calendar.html#ii.-spring-semester",
+    "href": "academic_calendar.html#ii.-spring-semester",
+    "title": "4  Schedule of the Academic Year",
+    "section": "II. (SPRING) SEMESTER",
+    "text": "II. (SPRING) SEMESTER\n\nRegistration period: 10 – 14 February, 2025 (Monday-Sunday)\nStudy period: 17 February – 23 May, 2025 (13 weeks)\nSpring Break: 7 – 11 April, 2025 (1 week)\nExam period:\n\n26 May – 11 July, 2025 (7 weeks)",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Schedule of the Academic Year</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Bikos, L. H. (2024). ReCentering psych stats: psychometrics. https://lhbikos.github.io/ReC_Psychometrics/\n\n\nÇetinkaya-Rundel, M., & Hardin, J. (2022). Welcome to modern\nstatistical methods for psychology. https://bookdown.org/gregcox7/ims_psych/\n\n\nCote, L. R., Gordon, R., Randell, C. E., Schmitt, J., & Marvin, H.\n(2021). Introduction to statistics in the psychological\nsciences (Vol. 25.). https://irl.umsl.edu/oer/25\n\n\nGao, C. X., Dwyer, D., Zhu, Y., Smith, C. L., Du, L., Filia, K. M.,\nBayer, J., Menssink, J. M., Wang, T., Bergmeir, C., Wood, S., &\nCotton, S. M. (2023). An overview of clustering methods with guidelines\nfor application in mental health research. Psychiatry Research,\n327, 115265. https://doi.org/10.1016/j.psychres.2023.115265\n\n\nGordon, E. S., & Bataineh, O. (2022). Introduction to applied\nstatistics for psychology students. https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/703/3/Introduction-to-Applied-Statistics-for-Psychology-Students-1590125696.pdf\n\n\nGruijters, S. L. K. (2019). Using principal component analysis to\nvalidate psychological scales: Bad statistical habits we should have\nbroken yesterday II. European Health Psychologis,\n20(5), 544–549. https://doi.org/10.31234/osf.io/qbe6k\n\n\nLanders, R. N. (2024). Data science for social scientists. https://datascience.tntlab.org/\n\n\nNavarro, D. J., & Foxcroft, D. R. (2022). Learning statistics\nwith jamovi: A tutorial for psychology students and other\nbeginners. Danielle J. Navarro; David R. Foxcroft. https://doi.org/10.24384/HGC3-7P15\n\n\nPajankar, V. D. P. (2022). Easy statistics with jamovi. Use of\njamovi for beginners. SK Print House. https://www.researchgate.net/publication/368387691\n\n\nPoulson, B. (2019). Jamovi. https://datalab.cc/jamovi/",
+    "crumbs": [
+      "References"
+    ]
+  }
+]
