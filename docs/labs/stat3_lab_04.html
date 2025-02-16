@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Kálmán Abari">
-<meta name="dcterms.date" content="2025-01-04">
+<meta name="dcterms.date" content="2025-02-16">
 <meta name="description" content="Course Number: BTPS2040BA-EContact Information: Please contact me through email anytime: abari.kalman@arts.unideb.hu">
 
 <title>Statistics for Psychologists 3.</title>
@@ -21,40 +21,6 @@ ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
 width: 0.8em;
 margin: 0 0.8em 0.2em -1em;  vertical-align: middle;
-}
-
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-{ counter-reset: source-line 0; }
-pre.numberSource code > span
-{ position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-{ content: counter(source-line);
-position: relative; left: -1em; text-align: right; vertical-align: baseline;
-border: none; display: inline-block;
--webkit-touch-callout: none; -webkit-user-select: none;
--khtml-user-select: none; -moz-user-select: none;
--ms-user-select: none; user-select: none;
-padding: 0 4px; width: 4em;
-}
-pre.numberSource { margin-left: 3em; padding-left: 4px; }
-div.sourceCode
-{ }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -3113,32 +3079,21 @@ background: #D5EDFF;
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">January 4, 2025</p>
+        <p class="date">February 16, 2025</p>
       </div>
     </div>
     
       
     </div>
     
-  <div>
-    <div class="abstract">
-      <div class="block-title">Learning outcomes</div>
-      Student will be familiar with file and directory handling.
-    </div>
-  </div>
   
   </header><div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
 <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
   <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Table of contents</h2>
    
-  <ul class="collapse">
-  <li><a href="#pca" id="toc-pca" class="nav-link active" data-scroll-target="#pca">PCA</a>
-  <ul class="collapse">
-  <li><a href="#sec-problem-1" id="toc-sec-problem-1" class="nav-link" data-scroll-target="#sec-problem-1">Problem 1</a></li>
-  <li><a href="#sec-problem-2" id="toc-sec-problem-2" class="nav-link" data-scroll-target="#sec-problem-2">Problem 2</a></li>
-  <li><a href="#sec-problem-3" id="toc-sec-problem-3" class="nav-link" data-scroll-target="#sec-problem-3">Problem 3</a></li>
-  </ul></li>
+  <ul>
+  <li><a href="#sec-problem-1" id="toc-sec-problem-1" class="nav-link active" data-scroll-target="#sec-problem-1">Problem 1</a></li>
   </ul>
 </nav>
 </div>
@@ -3148,293 +3103,9 @@ background: #D5EDFF;
 
 
 
-<section id="pca" class="level1">
-<h1>PCA</h1>
 <section id="sec-problem-1" class="level2">
 <h2 class="anchored" data-anchor-id="sec-problem-1">Problem 1</h2>
-<p>In this assignment, you will answer questions about a dataset on cardiovascular disease.</p>
-<p>Source: <a href="https://www.kaggle.com/code/kashnitsky/a2-demo-analyzing-cardiovascular-data-solution/notebook">Analyzing cardiovascular data</a></p>
-<p>Databse: mlbootcamp5_train.csv</p>
-<section id="problem" class="level3">
-<h3 class="anchored" data-anchor-id="problem">Problem</h3>
-<p>Predict presence or absence of cardiovascular disease (CVD) using the patient examination results.</p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Data description
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>There are 3 types of input features:</p>
-<ul>
-<li>Objective: factual information;</li>
-<li>Examination: results of medical examination;</li>
-<li>Subjective: information given by the patient.</li>
-</ul>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Feature</th>
-<th style="text-align: left;">Variable Type</th>
-<th style="text-align: left;">Variable</th>
-<th style="text-align: left;">Value Type</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">Age</td>
-<td style="text-align: left;">Objective Feature</td>
-<td style="text-align: left;">age</td>
-<td style="text-align: left;">int (days)</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Height</td>
-<td style="text-align: left;">Objective Feature</td>
-<td style="text-align: left;">height</td>
-<td style="text-align: left;">int (cm)</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Weight</td>
-<td style="text-align: left;">Objective Feature</td>
-<td style="text-align: left;">weight</td>
-<td style="text-align: left;">float (kg)</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Gender</td>
-<td style="text-align: left;">Objective Feature</td>
-<td style="text-align: left;">gender</td>
-<td style="text-align: left;">categorical code</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Systolic blood pressure</td>
-<td style="text-align: left;">Examination Feature</td>
-<td style="text-align: left;">ap_hi</td>
-<td style="text-align: left;">int</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Diastolic blood pressure</td>
-<td style="text-align: left;">Examination Feature</td>
-<td style="text-align: left;">ap_lo</td>
-<td style="text-align: left;">int</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Cholesterol</td>
-<td style="text-align: left;">Examination Feature</td>
-<td style="text-align: left;">cholesterol</td>
-<td style="text-align: left;">1: normal, 2: above normal, 3: well above normal</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Glucose</td>
-<td style="text-align: left;">Examination Feature</td>
-<td style="text-align: left;">gluc</td>
-<td style="text-align: left;">1: normal, 2: above normal, 3: well above normal</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Smoking</td>
-<td style="text-align: left;">Subjective Feature</td>
-<td style="text-align: left;">smoke</td>
-<td style="text-align: left;">binary</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Alcohol intake</td>
-<td style="text-align: left;">Subjective Feature</td>
-<td style="text-align: left;">alco</td>
-<td style="text-align: left;">binary</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Physical activity</td>
-<td style="text-align: left;">Subjective Feature</td>
-<td style="text-align: left;">active</td>
-<td style="text-align: left;">binary</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Presence or absence of cardiovascular disease</td>
-<td style="text-align: left;">Target Variable</td>
-<td style="text-align: left;">cardio</td>
-<td style="text-align: left;">binary</td>
-</tr>
-</tbody>
-</table>
-<p>All of the dataset values were collected at the moment of medical examination.</p>
-</div>
-</div>
-<p>Ismétlés</p>
-<ul>
-<li>https://youtu.be/Lv0xcdeXaGU?si=Ll0WlU54pt0fxcPh</li>
-<li>https://youtu.be/SplCk-t1BeA?si=JXcsTpwi08zSR5Ko</li>
-<li>https://youtu.be/6E6pB5JFLgM?si=KiHHBqbVO4PrRNAr</li>
-</ul>
-<p>Helyezzük el a többváltozós elemzést:</p>
-<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/gN0OQ6r78f4?si=bROybYPjT5sMHnSc" width="400" height="300" title frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-<ul>
-<li>https://youtu.be/kk__vYgzlaQ?si=k4tnzb1uxCluCwuC</li>
-<li>https://youtu.be/RhKYLexu0Q0?si=ngrCMI9J7Ykxn-N7</li>
-<li>https://youtu.be/1uKnzyegHQ0?si=tm7dliiY3fsCJx-n</li>
-</ul>
-<p>Mi a célja a többváltozós statisztikának:</p>
-<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/AmNqUu_e4nQ?si=BVjNyhy1ySgJEXnQ" width="400" height="300" title frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-<ol type="1">
-<li><p>Open the dataset in jamovi, then check the bottom of the window to identify the number of rows and columns.</p></li>
-<li><p>We can notice, that the data is not perfect. It contains much of “dirt” and inaccuracies. We’ll see it better when we do data visualization.</p></li>
-</ol>
-<p>Filter out the following patient segments (that we consider to have erroneous data)</p>
-<p>diastilic pressure is higher then systolic. height is strictly less than 2.5%-percentile (use pd.Series.quantile. If not familiar with it – please read the docs) height is strictly more than 97.5%-percentile weight is strictly less then 2.5%-percentile weight is strictly more than 97.5%-percentile</p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Principal component analysis
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Principal component analysis (PCA) is a method to find the linear combination that acounts for as much variability as possible.</p>
-<p>Why is it so important to maximaze the varince? One cansee the variance as information. Thus, when we combine variables, we like ti kpp as much information as possible in our combined variable.</p>
-</div>
-</div>
-<blockquote class="blockquote">
-<p>In this section, you will learn how to create directories and simple text files with special symbols, and how to compress an entire directory structure.</p>
-</blockquote>
-<ol type="1">
-<li><p>Select a proper base directory on your computer. For instance, your home directory or its <code>Documements</code> subdirectory would be fine. We call this base directory as <code>BASEDIR</code>. My choice is <code>c:\Users\abarik\Documents\</code> on own computer or <code>c:\student</code> on classroom computer.</p></li>
-<li><p>Create the following directory structure under the <code>BASEDIR</code>.</p></li>
-</ol>
-<div class="sourceCode" id="cb1"><pre class="sourceCode md code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>basics_of_mathematics</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>computer_science_1</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    lab_files</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>        documents</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>        data</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>        output</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>            image</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>            data</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<ol start="3" type="1">
-<li>Create a plain text file in <code>computer_science_1/lab_files/documents</code>as <code>special_characters.txt</code>. Please <strong>type</strong> the following content into <code>special_characters.txt</code>. Save and close the file.</li>
-</ol>
-<div class="sourceCode" id="cb2"><pre class="sourceCode md code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="an">Fundamental arithmetic operations:</span><span class="co"> + - / * ^</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>Common symbols are &#39; &quot; ! % | / \  = () [] {} $ &lt; &gt; # &amp; @ ? ; , . : </span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>You can skip this part:</span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>(hyphen) </span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>– (en dash or minus, Alt+0150) </span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>— (em dash, Alt+0151).</span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>In R ~ (tilde) is used for formulas and ` (backtic) for non-syntactic variable names.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Tip
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>You can read more information about hyphen, minus, and dash:</p>
-<ul>
-<li><a href="https://learn.microsoft.com/en-us/style-guide/welcome/">Microsoft Writing Style Guide</a></li>
-<li><a href="https://jakubmarian.com/hyphen-minus-en-dash-and-em-dash-difference-and-usage-in-english/">Hyphen, minus, en-dash, and em-dash: difference and usage in English</a></li>
-<li><a href="https://editorsmanual.com/articles/dashes-and-hyphens/">Em Dash, En Dash, Hyphen: How to Use Correctly</a></li>
-<li><a href="https://zapier.com/blog/em-dash-on-keyboard/">Your keyboard doesn’t have an em dash symbol—here’s what to do</a></li>
-</ul>
-</div>
-</div>
-<ol start="4" type="1">
-<li><p>Create a compressed zip file (<code>computer_science_1.zip</code>) from the contents of the <code>computer_science_1</code> directory.</p></li>
-<li><p>Send the file <code>computer_science_1.zip</code> to the <code>abari.kurzus@gmail.com</code>. The subject of this email is <code>Lab 01 - Problem 1</code>.</p></li>
-</ol>
-</section>
-</section>
-<section id="sec-problem-2" class="level2">
-<h2 class="anchored" data-anchor-id="sec-problem-2">Problem 2</h2>
-<blockquote class="blockquote">
-<p>In this section we will learn how to compress and uncompress directories and how to copy and edit plain text files.</p>
-</blockquote>
-<ol type="1">
-<li><p>Download the file <code>problem_2.zip</code> from <a href="https://github.com/abarik/computer_science_1_2023_24_1/blob/321919781bc9063d8170f32575de6c947e167740/files/problem_2.zip">here</a>.</p></li>
-<li><p>Uncompress the file <code>problem_2.zip</code> into your <code>BASEDIR</code>.</p></li>
-<li><p>Create a new sub-folder <code>output</code> in directory <code>problem_2</code>.</p></li>
-<li><p>Copy <code>quiz.txt</code> from directory <code>input</code> to directory <code>output</code> as <code>quiz_answer.txt</code>.</p></li>
-<li><p>Answer the quiz questions. Edit the <code>quiz_answer.txt</code> in directory <code>output</code>.</p></li>
-<li><p>Save and close the file <code>quiz_answer.txt</code>.</p></li>
-<li><p>Create a compressed zip file (<code>quiz.zip</code>) from the contents of the <code>problem_2</code> directory.</p></li>
-<li><p>Send the file <code>quiz.zip</code> to the <code>abari.kurzus@gmail.com</code>. The subject of this email is <code>Lab01 - Problem 2</code>.</p></li>
-</ol>
-</section>
-<section id="sec-problem-3" class="level2">
-<h2 class="anchored" data-anchor-id="sec-problem-3">Problem 3</h2>
-<blockquote class="blockquote">
-<p>In this section we will learn how to how to create file of any type.</p>
-</blockquote>
-<ol type="1">
-<li><p>Create a new <code>file_types</code> directory in your <code>BASEDIR</code> directory.</p></li>
-<li><p>Create at least 5 files with simple, arbitrary content from the following file types. Save them in directory <code>file_types</code>:</p></li>
-</ol>
-<ul>
-<li>TXT, simple text file (<code>file.txt</code>)</li>
-<li>DOCX, formatted text file (<code>file.docx</code>)</li>
-<li>ODT, formatted text file (<code>file.odt</code>)</li>
-<li>PDF file (<code>file.pdf</code>)</li>
-<li>PPTX, presentation file (<code>file.pptx</code>)</li>
-<li>XLSX, spreadsheet file (<code>file.xlsx</code>)</li>
-<li>ODS, spreadsheet file (<code>file.ods</code>)</li>
-<li>HTML, web file (<code>file.html</code>)</li>
-<li>PNG image file (<code>file.png</code>)</li>
-<li>JPG image file (<code>file.jpg</code>)</li>
-<li>ZIP, compressed file (<code>file.zip</code>)</li>
-<li>BIB, bibliography file (<code>file.bib</code>)</li>
-<li>OMV, jamovi file (<code>file.omv</code>)</li>
-</ul>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Tip
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>The files above can usually be created under Windows with the following applications:</p>
-<ul>
-<li>TXT - Notepad</li>
-<li>DOCX - MS Word, LibreOffice Writer, Google Docs</li>
-<li>ODT - LibreOffice Writer, MS Word, Google Docs</li>
-<li>PDF - MS Word, LibreOffice Writer, Google Docs</li>
-<li>PPTX - MS PowerPoint, LibreOffice Impress, Google Slides</li>
-<li>XLSX - MS Excel, LibreOffice Calc, Google Sheets</li>
-<li>ODS - LibreOffice Calc, MS Excel, Google Sheets</li>
-<li>HTML - MS Word, LibreOffice Writer, Google Docs</li>
-<li>PNG - Paint</li>
-<li>JPG - Paint</li>
-<li>ZIP - operating system built-in tool, WinZip</li>
-<li>BIB - JabRef</li>
-<li>OMV - Jamovi</li>
-</ul>
-<p>You can read more information about file types and extensions:</p>
-<ul>
-<li><a href="https://it.nmu.edu/docs/common-windows-file-extensions#show">Showing File Extensions</a></li>
-<li><a href="https://www.computerhope.com/issues/ch001789.htm">What are the most common file types and file extensions?</a></li>
-<li><a href="https://support.microsoft.com/en-us/windows/common-file-name-extensions-in-windows-da4a4430-8e76-89c5-59f7-1cdbbc75cb01">Common file name extensions in Windows</a></li>
-</ul>
-</div>
-</div>
-<ol start="3" type="1">
-<li><p>Create a compressed zip file (<code>file_types.zip</code>) from the contents of the <code>file_types</code> directory.</p></li>
-<li><p>Send the file <code>file_types.zip</code> to the <code>abari.kurzus@gmail.com</code>. The subject of this email is <code>Lab 01 - Problem 3</code>.</p></li>
-</ol>
-</section>
+<p>Coming soon</p>
 </section>
 
 </main>
