@@ -1425,9 +1425,9 @@ Figure&nbsp;2.1: Multivariate Statistical Methods
 <h5 data-number="2.2.1.1.3" class="anchored" data-anchor-id="summary-table"><span class="header-section-number">2.2.1.1.3</span> Summary Table:</h5>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 34%">
-<col style="width: 22%">
-<col style="width: 44%">
+<col style="width: 32%">
+<col style="width: 20%">
+<col style="width: 47%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -1482,13 +1482,13 @@ Figure&nbsp;2.1: Multivariate Statistical Methods
 <p><span class="math display">\[Y = \beta_0 + \beta_1 X + \epsilon\]</span></p>
 <p>which describes the functional relationship between two variables using a straight line (regression line), where:</p>
 <ul>
-<li><strong><span class="math inline">\(\beta_0\)</span> – Intercept</strong>: The point where the regression line intersects the <strong>y-axis</strong>.<br>
+<li><span class="math inline">\(\beta_0\)</span> – Intercept: The point where the regression line intersects the <strong>y-axis</strong>.<br>
 </li>
-<li><strong><span class="math inline">\(\beta_1\)</span> – Slope</strong>: The tangent of the angle between the regression line and the <strong>x-axis</strong>, representing the rate of change of <span class="math inline">\(Y\)</span> with respect to <span class="math inline">\(X\)</span>.<br>
+<li><span class="math inline">\(\beta_1\)</span> – Slope: The tangent of the angle between the regression line and the <strong>x-axis</strong>, representing the rate of change of <span class="math inline">\(Y\)</span> with respect to <span class="math inline">\(X\)</span>.<br>
 </li>
-<li><strong><span class="math inline">\(\epsilon\)</span> – Error term</strong>: Assumed to be normally distributed with a mean of <strong>0</strong>.</li>
+<li><span class="math inline">\(\epsilon\)</span> – Error term: Assumed to be normally distributed with a mean of <strong>0</strong>.</li>
 </ul>
-<p>The population parameters <strong><span class="math inline">\(\beta_0\)</span></strong> and <strong><span class="math inline">\(\beta_1\)</span></strong> are estimated from the sample using the <strong>least squares method</strong>, yielding the estimates <strong><span class="math inline">\(b_0\)</span></strong> and <strong><span class="math inline">\(b_1\)</span></strong>.</p>
+<p>The population parameters <span class="math inline">\(\beta_0\)</span> and <span class="math inline">\(\beta_1\)</span> are estimated from the sample using the <strong>least squares method</strong>, yielding the estimates <span class="math inline">\(b_0\)</span> and <span class="math inline">\(b_1\)</span>.</p>
 <p>Once the regression line is determined, we can predict the value of <span class="math inline">\(Y\)</span> for any given <span class="math inline">\(X\)</span>, with some degree of error, using the estimated regression equation:</p>
 <p><span class="math display">\[\hat{Y} = b_0 + b_1 X\]</span></p>
 <p>This allows for <strong>prediction</strong> based on observed data.</p>
@@ -1497,15 +1497,15 @@ Figure&nbsp;2.1: Multivariate Statistical Methods
 <p><span class="math display">\[\hat{Y} = b_0 + b_1 X\]</span></p>
 <p><span class="math display">\[\text{Estimated Job Satisfaction} = 3.211 + 0.628 \times \text{Salary}\]</span></p>
 <p>Where:<br>
-- <strong><span class="math inline">\(b_0\)</span> (Intercept)</strong>: Represents the value of <span class="math inline">\(Y\)</span> (satisfaction) when <span class="math inline">\(X = 0\)</span> (salary is zero).<br>
-- <strong><span class="math inline">\(b_1\)</span> (Slope)</strong>: Represents how much <span class="math inline">\(Y\)</span> (satisfaction) changes for a <strong>one-unit increase</strong> in <span class="math inline">\(X\)</span> (salary).</p>
+- <span class="math inline">\(b_0\)</span> (Intercept): Represents the value of <span class="math inline">\(Y\)</span> (satisfaction) when <span class="math inline">\(X = 0\)</span> (salary is zero).<br>
+- <span class="math inline">\(b_1\)</span> (Slope): Represents how much <span class="math inline">\(Y\)</span> (satisfaction) changes for a <strong>one-unit increase</strong> in <span class="math inline">\(X\)</span> (salary).</p>
 <section id="relationship-between-b_1-and-pearsons-correlation-r_xy" class="level4" data-number="2.2.3.1">
 <h4 data-number="2.2.3.1" class="anchored" data-anchor-id="relationship-between-b_1-and-pearsons-correlation-r_xy"><span class="header-section-number">2.2.3.1</span> Relationship Between <span class="math inline">\(b_1\)</span> and Pearson’s Correlation <span class="math inline">\(r_{XY}\)</span></h4>
-<p>The <strong>Pearson correlation coefficient <span class="math inline">\(r_{XY}\)</span></strong> measures the strength and direction of the relationship between <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span>. It is directly related to the regression slope <span class="math inline">\(b_1\)</span> as follows:</p>
+<p>The <strong>Pearson correlation coefficient</strong> <span class="math inline">\(r_{XY}\)</span> measures the strength and direction of the relationship between <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span>. It is directly related to the regression slope <span class="math inline">\(b_1\)</span> as follows:</p>
 <ul>
-<li><strong><span class="math inline">\(b_1\)</span> and <span class="math inline">\(r_{XY}\)</span> have the same sign</strong> (positive or negative).<br>
+<li><span class="math inline">\(b_1\)</span> and <span class="math inline">\(r_{XY}\)</span> have the same sign (positive or negative).<br>
 </li>
-<li>When <span class="math inline">\(X\)</span> increases by <strong>one standard deviation</strong>, the corresponding change in <span class="math inline">\(Y\)</span> is equal to <strong><span class="math inline">\(r_{XY}\)</span> times the standard deviation of <span class="math inline">\(Y\)</span></strong>.</li>
+<li>When <span class="math inline">\(X\)</span> increases by <strong>one standard deviation</strong>, the corresponding change in <span class="math inline">\(Y\)</span> is equal to <span class="math inline">\(r_{XY}\)</span> times the standard deviation of <span class="math inline">\(Y\)</span>.</li>
 </ul>
 <p>Mathematically, for population parameters:</p>
 <p><span class="math display">\[\beta_1 = \frac{\sigma_Y}{\sigma_X} \rho_{XY}\]</span></p>
@@ -1513,20 +1513,20 @@ Figure&nbsp;2.1: Multivariate Statistical Methods
 </section>
 <section id="coefficient-of-determination-r2" class="level4" data-number="2.2.3.2">
 <h4 data-number="2.2.3.2" class="anchored" data-anchor-id="coefficient-of-determination-r2"><span class="header-section-number">2.2.3.2</span> Coefficient of Determination (<span class="math inline">\(R^2\)</span>)</h4>
-<p>The coefficient of determination, <strong><span class="math inline">\(R^2\)</span></strong>, is the square of the correlation coefficient:</p>
+<p>The coefficient of determination, <span class="math inline">\(R^2\)</span>, is the square of the correlation coefficient:</p>
 <p><span class="math display">\[R^2 = r_{XY}^2\]</span></p>
 <p>This is a <strong>symmetric measure</strong> that indicates how much of the variance in <span class="math inline">\(Y\)</span> can be explained by <span class="math inline">\(X\)</span>, or vice versa.</p>
 <ul>
-<li><strong><span class="math inline">\(R^2 = 0.99\)</span> in this example</strong> → <strong>99%</strong> of the variance in the dependent variable (<strong>satisfaction</strong>) is explained by the independent variable (<strong>salary</strong>).<br>
+<li><span class="math inline">\(R^2 = 0.99\)</span> in this example → <strong>99%</strong> of the variance in the dependent variable (<strong>satisfaction</strong>) is explained by the independent variable (<strong>salary</strong>).<br>
 </li>
 <li>This ratio is typically expressed <strong>as a percentage</strong>.</li>
 </ul>
 <p>The values of the <strong>coefficients</strong> $ _0 $ and $ _1 $ can be tested using <strong>hypothesis testing</strong>:</p>
 <ul>
-<li><p><strong><span class="math inline">\(H_0: \beta_0 = 0\)</span>, <span class="math inline">\(H_1: \beta_0 \neq 0\)</span></strong><br>
-<strong>Question:</strong> Does the regression line pass through the origin? (<strong>If <span class="math inline">\(H_0\)</span> is retained, then yes.</strong>)</p></li>
-<li><p><strong><span class="math inline">\(H_0: \beta_1 = 0\)</span>, <span class="math inline">\(H_1: \beta_1 \neq 0\)</span></strong><br>
-<strong>Question:</strong> Does <span class="math inline">\(Y\)</span> depend on <span class="math inline">\(X\)</span>? (<strong>If <span class="math inline">\(H_1\)</span> is accepted, then yes.</strong>)</p></li>
+<li><p><span class="math inline">\(H_0: \beta_0 = 0\)</span>, <span class="math inline">\(H_1: \beta_0 \neq 0\)</span><br>
+<strong>Question:</strong> Does the regression line pass through the origin? (<strong>If</strong> <span class="math inline">\(H_0\)</span> is retained, then yes.)</p></li>
+<li><p><span class="math inline">\(H_0: \beta_1 = 0\)</span>, <span class="math inline">\(H_1: \beta_1 \neq 0\)</span><br>
+<strong>Question:</strong> Does <span class="math inline">\(Y\)</span> depend on <span class="math inline">\(X\)</span>? (<strong>If</strong> <span class="math inline">\(H_1\)</span> is accepted, then yes.)</p></li>
 </ul>
 </section>
 </section>
@@ -1534,28 +1534,28 @@ Figure&nbsp;2.1: Multivariate Statistical Methods
 <h3 data-number="2.2.4" class="anchored" data-anchor-id="multiple-regression"><span class="header-section-number">2.2.4</span> Multiple Regression</h3>
 <p>The <strong>multiple linear regression model</strong> is given by:</p>
 <p><span class="math display">\[Y = \beta_0 + \beta_1 X_1 + \beta_2 X_2 + \dots + \beta_r X_r + \epsilon\]</span></p>
-<p>While <strong>simple linear regression</strong> describes the relationship between two variables using a <strong>regression line</strong>, <strong>multiple linear regression</strong> represents a <strong>linear function as an <span class="math inline">\(r\)</span>-dimensional plane in an <span class="math inline">\((r+1)\)</span>-dimensional space</strong>.</p>
+<p>While <strong>simple linear regression</strong> describes the relationship between two variables using a <strong>regression line</strong>, <strong>multiple linear regression</strong> represents a <strong>linear function as an</strong> <span class="math inline">\(r\)</span>-dimensional plane in an <span class="math inline">\((r+1)\)</span>-dimensional space.</p>
 <p>The <strong>coefficients</strong> <span class="math inline">\(\beta_i\)</span> are estimated using the <strong>least squares method</strong>, resulting in the estimates <span class="math inline">\(b_0, b_1, \dots, b_r\)</span>.</p>
-<p>With the estimated linear function, we can predict $ Y $ values for any given <strong><span class="math inline">\(X_1, X_2, \dots, X_r\)</span></strong> values, allowing for <strong>predictions</strong> with a certain level of error:</p>
+<p>With the estimated linear function, we can predict $ Y $ values for any given <span class="math inline">\(X_1, X_2, \dots, X_r\)</span> values, allowing for <strong>predictions</strong> with a certain level of error:</p>
 <p><span class="math display">\[\hat{Y} = b_0 + b_1 X_1 + \dots + b_r X_r\]</span></p>
 <p>This model extends <strong>simple regression</strong> by incorporating multiple independent variables, improving prediction accuracy while considering <strong>potential multicollinearity</strong> among predictors.</p>
 <p>In <strong>multiple linear regression</strong>, several hypothesis tests can be performed:</p>
 <ol type="1">
-<li><strong>Testing Each Coefficient Separately Using t-tests</strong> (with <strong><span class="math inline">\(n - r - 1\)</span></strong> degrees of freedom):
+<li><strong>Testing Each Coefficient Separately Using t-tests</strong> (with <span class="math inline">\(n - r - 1\)</span> degrees of freedom):
 <ul>
-<li><strong>Null Hypothesis (<span class="math inline">\(H_0\)</span>)</strong>: <span class="math inline">\(\beta_i = 0\)</span><br>
+<li><strong>Null Hypothesis (</strong><span class="math inline">\(H_0\)</span>): <span class="math inline">\(\beta_i = 0\)</span><br>
 </li>
-<li><strong>Alternative Hypothesis (<span class="math inline">\(H_1\)</span>)</strong>: <span class="math inline">\(\beta_i \neq 0\)</span>, for <span class="math inline">\(i = 1, \dots, r\)</span><br>
+<li><strong>Alternative Hypothesis (</strong><span class="math inline">\(H_1\)</span>): <span class="math inline">\(\beta_i \neq 0\)</span>, for <span class="math inline">\(i = 1, \dots, r\)</span><br>
 </li>
-<li><strong>Question</strong>: Does $ Y $ depend on <span class="math inline">\(X_i\)</span>? (<strong>If <span class="math inline">\(H_1\)</span> is accepted, then yes.</strong>)</li>
+<li><strong>Question</strong>: Does $ Y $ depend on <span class="math inline">\(X_i\)</span>? (<strong>If</strong> <span class="math inline">\(H_1\)</span> is accepted, then yes.)</li>
 </ul></li>
-<li><strong>Testing the Entire Model Using an F-test</strong> (with <strong><span class="math inline">\(r, n - r - 1\)</span></strong> degrees of freedom):
+<li><strong>Testing the Entire Model Using an F-test</strong> (with <span class="math inline">\(r, n - r - 1\)</span> degrees of freedom):
 <ul>
-<li><strong>Null Hypothesis (<span class="math inline">\(H_0\)</span>)</strong>: <strong>All</strong> <span class="math inline">\(\beta_i = 0\)</span><br>
+<li><strong>Null Hypothesis (</strong><span class="math inline">\(H_0\)</span>): <strong>All</strong> <span class="math inline">\(\beta_i = 0\)</span><br>
 </li>
-<li><strong>Alternative Hypothesis (<span class="math inline">\(H_1\)</span>)</strong>: <strong>At least one</strong> <span class="math inline">\(\beta_i \neq 0\)</span><br>
+<li><strong>Alternative Hypothesis (</strong><span class="math inline">\(H_1\)</span>): <strong>At least one</strong> <span class="math inline">\(\beta_i \neq 0\)</span><br>
 </li>
-<li><strong>Question</strong>: Does the model have any <strong>predictive power</strong>? (<strong>If <span class="math inline">\(H_1\)</span> is accepted, then yes.</strong>)</li>
+<li><strong>Question</strong>: Does the model have any <strong>predictive power</strong>? (<strong>If</strong> <span class="math inline">\(H_1\)</span> is accepted, then yes.)</li>
 </ul></li>
 </ol>
 <p>These tests help assess <strong>the significance of individual predictors</strong> and <strong>the overall effectiveness of the regression model</strong>.</p>
@@ -1579,6 +1579,241 @@ Figure&nbsp;2.1: Multivariate Statistical Methods
 </ul>
 <section id="good-to-know-2" class="level3" data-number="2.3.1">
 <h3 data-number="2.3.1" class="anchored" data-anchor-id="good-to-know-2"><span class="header-section-number">2.3.1</span> Good to know</h3>
+<p>Multiple linear regression (MLR) extends simple linear regression by incorporating multiple independent variables to predict a dependent variable. Unlike correlation, which only measures the strength and direction of a relationship between two variables, MLR identifies how each predictor contributes to the outcome while controlling for others.</p>
+<p>In multiple linear regression (MLR), the first step is to review the <strong>p-values</strong> in the row of coefficients to determine the statistical significance of each predictor. Next, we interpret the <strong>unstandardized coefficients (b-values)</strong> to understand the effect of each independent variable on the dependent variable. After that, we analyze the <strong>standard errors</strong> to assess the precision of the coefficient estimates. Then, we examine the <strong>standardized coefficients</strong> to compare the relative importance of different predictors. Following this, we evaluate the <strong>model fit indicators</strong> (such as R2R^2, Adjusted R2R^2, AIC, BIC, and RMSE) to assess the overall explanatory power of the model. Finally, we check the <strong>assumptions of the regression model</strong>, including normality, homoscedasticity, independence of errors, and absence of multicollinearity, to ensure the validity and reliability of the results.</p>
+<section id="summary-of-mlr" class="level4" data-number="2.3.1.1">
+<h4 data-number="2.3.1.1" class="anchored" data-anchor-id="summary-of-mlr"><span class="header-section-number">2.3.1.1</span> <strong>Summary</strong> of MLR</h4>
+<ol type="1">
+<li><p><strong>Check the p-values</strong> → Identify significant predictors.</p></li>
+<li><p><strong>Interpret the b-values</strong> → Understand real-world impact.</p></li>
+<li><p><strong>Analyze the standard error</strong> → Check precision of estimates.</p></li>
+<li><p><strong>Evaluate the standardized coefficients</strong> → Compare relative importance of predictors.</p></li>
+<li><p><strong>Review model fit indicators</strong> → Assess explanatory power.</p></li>
+<li><p><strong>Validate regression assumptions</strong> → Ensure statistical validity.</p></li>
+</ol>
+<section id="check-the-p-values-statistical-significance" class="level5" data-number="2.3.1.1.1">
+<h5 data-number="2.3.1.1.1" class="anchored" data-anchor-id="check-the-p-values-statistical-significance"><span class="header-section-number">2.3.1.1.1</span> <strong>1. Check the p-values (Statistical Significance)</strong></h5>
+<ul>
+<li><p><strong>Purpose:</strong> Determine whether each predictor significantly contributes to explaining the dependent variable.</p></li>
+<li><p><strong>Interpretation Key:</strong></p>
+<ul>
+<li><p><strong>p &lt; 0.05</strong> → The predictor is <strong>statistically significant</strong>.</p></li>
+<li><p><strong>p &gt; 0.05</strong> → The predictor is <strong>not statistically significant</strong> (consider removing it).</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="interpret-the-unstandardized-coefficients-b-values" class="level5" data-number="2.3.1.1.2">
+<h5 data-number="2.3.1.1.2" class="anchored" data-anchor-id="interpret-the-unstandardized-coefficients-b-values"><span class="header-section-number">2.3.1.1.2</span> <strong>2. Interpret the Unstandardized Coefficients (b-values)</strong></h5>
+<ul>
+<li><p><strong>Purpose:</strong> Understand the real-world impact of each predictor on the dependent variable.</p></li>
+<li><p><strong>Interpretation Key:</strong></p>
+<ul>
+<li><p><strong>Positive b-value</strong> → The predictor has a <strong>positive</strong> relationship with the dependent variable.</p></li>
+<li><p><strong>Negative b-value</strong> → The predictor has a <strong>negative</strong> relationship.</p></li>
+<li><p><strong>Larger absolute b-value</strong> → Stronger impact in real-world units.</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="examine-the-standard-error-se" class="level5" data-number="2.3.1.1.3">
+<h5 data-number="2.3.1.1.3" class="anchored" data-anchor-id="examine-the-standard-error-se"><span class="header-section-number">2.3.1.1.3</span> <strong>3. Examine the Standard Error (SE)</strong></h5>
+<ul>
+<li><p><strong>Purpose:</strong> Assess the reliability and precision of each coefficient estimate.</p></li>
+<li><p><strong>Interpretation Key:</strong></p>
+<ul>
+<li><p><strong>Smaller SE</strong> → The estimate is more <strong>precise</strong>.</p></li>
+<li><p><strong>Larger SE</strong> → More <strong>variability</strong>, less confidence in the estimate.</p></li>
+<li><p>If SE is large relative to the b-value, the predictor might not be <strong>stable</strong>.</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="analyze-the-standardized-coefficients-β" class="level5" data-number="2.3.1.1.4">
+<h5 data-number="2.3.1.1.4" class="anchored" data-anchor-id="analyze-the-standardized-coefficients-β"><span class="header-section-number">2.3.1.1.4</span> <strong>4. Analyze the Standardized Coefficients (β)</strong></h5>
+<ul>
+<li><p><strong>Purpose:</strong> Compare the relative importance of predictors on the same scale.</p></li>
+<li><p><strong>Interpretation Key:</strong></p>
+<ul>
+<li><p><strong>Higher absolute β</strong> → The predictor has a stronger influence <strong>relative</strong> to others.</p></li>
+<li><p><strong>β values can be directly compared</strong> (unlike b-values, which depend on measurement units).</p></li>
+<li><p>If a predictor has a high <strong>b-value</strong> but low <strong>β</strong>, it means it has an effect but might not be the most influential.</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="assess-model-fit-indicators" class="level5" data-number="2.3.1.1.5">
+<h5 data-number="2.3.1.1.5" class="anchored" data-anchor-id="assess-model-fit-indicators"><span class="header-section-number">2.3.1.1.5</span> <strong>5. Assess Model Fit Indicators</strong></h5>
+<ul>
+<li><p><strong>Purpose:</strong> Evaluate how well the model explains the dependent variable.</p></li>
+<li><p><strong>Interpretation Key:</strong></p>
+<ul>
+<li><p><strong>R^2</strong> → Measures the proportion of variance explained by the model. Higher is better.</p></li>
+<li><p><strong>Adjusted R^2</strong> → Adjusts for the number of predictors; used for model comparison.</p></li>
+<li><p><strong>AIC / BIC</strong> → Lower values indicate a better model (used for model selection).</p></li>
+<li><p><strong>RMSE (Root Mean Squared Error)</strong> → Lower values indicate more accurate predictions.</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="check-the-assumptions-of-regression" class="level5" data-number="2.3.1.1.6">
+<h5 data-number="2.3.1.1.6" class="anchored" data-anchor-id="check-the-assumptions-of-regression"><span class="header-section-number">2.3.1.1.6</span> <strong>6. Check the Assumptions of Regression</strong></h5>
+<ul>
+<li><strong>Purpose:</strong> Ensure the model is statistically valid and not violating key assumptions.</li>
+</ul>
+<p><strong>Interpretation Key:</strong></p>
+<ul>
+<li><p><strong>Linearity</strong> → Scatterplots should show a linear trend.</p></li>
+<li><p><strong>Homoscedasticity</strong> → Residual plots should show constant variance.</p></li>
+<li><p><strong>Normality of residuals</strong> → Residuals should be normally distributed (Shapiro-Wilk test).</p></li>
+<li><p><strong>Independence of errors</strong> → Durbin-Watson statistic should be close to 2.</p></li>
+<li><p><strong>No multicollinearity</strong> → VIF (Variance Inflation Factor) should be <strong>&lt; 10</strong>.</p></li>
+</ul>
+</section>
+</section>
+<section id="hierarchical-regression" class="level4" data-number="2.3.1.2">
+<h4 data-number="2.3.1.2" class="anchored" data-anchor-id="hierarchical-regression"><span class="header-section-number">2.3.1.2</span> Hierarchical regression</h4>
+<p>In many cases, it is not easy to select the explanatory variables that best explain the dependent variable from the many possible explanatory variables. Hierarchical regression is exactly the same as multiple regression but now we have multiple models or blocks. You can specify hierarchical regression using the Model Builder drop-down menu in jamovi.</p>
+<p>Hierarchical linear regression involves adding predictor variables <strong>step by step</strong> in a structured manner to evaluate their contribution. Below is a <strong>detailed step-by-step guide</strong>, including how to define blocks and interpret the resulting models.</p>
+<section id="define-the-research-question-identify-variables" class="level5" data-number="2.3.1.2.1">
+<h5 data-number="2.3.1.2.1" class="anchored" data-anchor-id="define-the-research-question-identify-variables"><span class="header-section-number">2.3.1.2.1</span> <strong>1. Define the Research Question &amp; Identify Variables</strong></h5>
+<ul>
+<li><p>Determine the <strong>dependent variable</strong> (outcome to be predicted).</p></li>
+<li><p>List the <strong>independent variables</strong> (predictors) and group them into <strong>logically structured blocks</strong>:</p>
+<ul>
+<li><p><strong>Block 1:</strong> Fundamental predictors (e.g., demographics like age, gender).</p></li>
+<li><p><strong>Block 2:</strong> Key explanatory predictors (e.g., psychological traits, skills).</p></li>
+<li><p><strong>Block 3+:</strong> Additional variables for testing (e.g., behavioral data, external factors).</p></li>
+</ul></li>
+<li><p>Establish a <strong>theoretical or empirical</strong> justification for the order of blocks.</p></li>
+</ul>
+</section>
+<section id="set-up-blocks-in-jamovi" class="level5" data-number="2.3.1.2.2">
+<h5 data-number="2.3.1.2.2" class="anchored" data-anchor-id="set-up-blocks-in-jamovi"><span class="header-section-number">2.3.1.2.2</span> <strong>2. Set Up Blocks in Jamovi</strong></h5>
+<ol type="1">
+<li><p><strong>Open Jamovi → Regression → Linear Regression.</strong></p></li>
+<li><p><strong>Assign the dependent variable</strong> in the “Dependent Variable” field.</p></li>
+<li><p><strong>Add predictors to the “Blocks” section:</strong></p>
+<ul>
+<li><p><strong>Block 1:</strong> Add the first set of predictors.</p></li>
+<li><p><strong>Block 2:</strong> Add the next set of predictors.</p></li>
+<li><p><strong>Block 3+:</strong> Continue adding more predictors if needed.</p></li>
+</ul></li>
+<li><p>Each block <strong>builds upon the previous model</strong>, allowing for comparison of incremental changes.</p></li>
+</ol>
+</section>
+<section id="what-each-model-contains-understanding-model-definitions" class="level5" data-number="2.3.1.2.3">
+<h5 data-number="2.3.1.2.3" class="anchored" data-anchor-id="what-each-model-contains-understanding-model-definitions"><span class="header-section-number">2.3.1.2.3</span> <strong>3. What Each Model Contains (Understanding Model Definitions)</strong></h5>
+<p>Once the blocks are defined, Jamovi generates <strong>multiple models</strong>, each representing an additional layer of complexity.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 22%">
+<col style="width: 31%">
+<col style="width: 45%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Model</strong></th>
+<th><strong>Predictors Included</strong></th>
+<th><strong>Purpose</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Model 1</strong></td>
+<td>Predictors from <strong>Block 1</strong></td>
+<td>Serves as the <strong>baseline model</strong>, explaining variance using the first set of predictors.</td>
+</tr>
+<tr class="even">
+<td><strong>Model 2</strong></td>
+<td>Predictors from <strong>Block 1 + Block 2</strong></td>
+<td>Measures how much <strong>additional variance</strong> is explained by adding the Block 2 predictors.</td>
+</tr>
+<tr class="odd">
+<td><strong>Model 3</strong></td>
+<td>Predictors from <strong>Block 1 + Block 2 + Block 3</strong></td>
+<td>Tests if adding more predictors further improves model performance.</td>
+</tr>
+</tbody>
+</table>
+<p>Each model is compared with the previous one to assess <strong>whether the newly added predictors contribute significantly</strong>.</p>
+</section>
+<section id="fit-the-models-and-compare-model-improvement" class="level5" data-number="2.3.1.2.4">
+<h5 data-number="2.3.1.2.4" class="anchored" data-anchor-id="fit-the-models-and-compare-model-improvement"><span class="header-section-number">2.3.1.2.4</span> <strong>4. Fit the Models and Compare Model Improvement</strong></h5>
+<p>For each added block, check:</p>
+<ul>
+<li><strong>R^2 (Coefficient of Determination)</strong></li>
+</ul>
+<pre><code>-   Measures the proportion of variance explained.
+
+-   **If R\^2 increases significantly**, the new predictors add explanatory power.</code></pre>
+<ul>
+<li><p><strong>ΔR2\Delta R^2 (Change in R^2)</strong></p>
+<ul>
+<li><p>Compares how much more variance is explained in <strong>Model 2 vs.&nbsp;Model 1</strong>, and <strong>Model 3 vs.&nbsp;Model 2</strong>.</p></li>
+<li><p><strong>If ΔR2\Delta R^2 is significant</strong>, the new predictors meaningfully improve the model.</p></li>
+</ul></li>
+<li><p><strong>F-test for Model Comparison</strong></p></li>
+</ul>
+<pre><code>-   Determines whether the improvement from one model to the next is **statistically significant**.
+
+-   If p &lt; 0.05, the additional predictors significantly contribute to explaining the dependent variable.</code></pre>
+</section>
+<section id="evaluate-predictor-significance-in-each-model" class="level5" data-number="2.3.1.2.5">
+<h5 data-number="2.3.1.2.5" class="anchored" data-anchor-id="evaluate-predictor-significance-in-each-model"><span class="header-section-number">2.3.1.2.5</span> <strong>5. Evaluate Predictor Significance in Each Model</strong></h5>
+<p>For each block, examine:</p>
+<ul>
+<li><p><strong>p-values</strong> → Check whether the new predictors are statistically significant.</p></li>
+<li><p><strong>b-values (Unstandardized Coefficients)</strong> → Understand how each predictor influences the dependent variable.</p></li>
+<li><p><strong>Standardized β-coefficients</strong> → Compare relative importance across predictors.</p></li>
+</ul>
+<p><strong>Example:</strong></p>
+<ul>
+<li>If <strong>Model 1</strong> shows a strong effect for <code>age</code> but in <strong>Model 3</strong>, its significance drops after adding <code>income</code>, this suggests <strong>collinearity or mediation effects</strong>.</li>
+</ul>
+</section>
+<section id="assess-model-fit-indicators-1" class="level5" data-number="2.3.1.2.6">
+<h5 data-number="2.3.1.2.6" class="anchored" data-anchor-id="assess-model-fit-indicators-1"><span class="header-section-number">2.3.1.2.6</span> <strong>6. Assess Model Fit Indicators</strong></h5>
+<ul>
+<li><p><strong>Adjusted R2R^2</strong> → Used for comparing models (higher is better).</p></li>
+<li><p><strong>AIC/BIC</strong> → Lower values indicate better model selection.</p></li>
+<li><p><strong>RMSE (Root Mean Squared Error)</strong> → Lower RMSE means better predictive accuracy.</p></li>
+</ul>
+</section>
+<section id="check-regression-assumptions" class="level5" data-number="2.3.1.2.7">
+<h5 data-number="2.3.1.2.7" class="anchored" data-anchor-id="check-regression-assumptions"><span class="header-section-number">2.3.1.2.7</span> <strong>7. Check Regression Assumptions</strong></h5>
+<ul>
+<li><p><strong>Linearity:</strong> Ensure the predictors have a linear relationship with the dependent variable.</p></li>
+<li><p><strong>Homoscedasticity:</strong> Residuals should have constant variance.</p></li>
+<li><p><strong>Multicollinearity:</strong> Variance Inflation Factor (VIF) should be <strong>&lt;10</strong>.</p></li>
+<li><p><strong>Normality of residuals:</strong> Use residual plots or the Shapiro-Wilk test.</p></li>
+<li><p><strong>Independence of errors:</strong> Durbin-Watson statistic should be <strong>close to 2</strong>.</p></li>
+</ul>
+</section>
+<section id="interpret-and-report-findings" class="level5" data-number="2.3.1.2.8">
+<h5 data-number="2.3.1.2.8" class="anchored" data-anchor-id="interpret-and-report-findings"><span class="header-section-number">2.3.1.2.8</span> <strong>8. Interpret and Report Findings</strong></h5>
+<ul>
+<li><p><strong>Summarize each model’s improvement</strong> (e.g., “Adding behavioral predictors in Model 3 increased R^2 by 5%, but only one variable was significant.”)</p></li>
+<li><p><strong>Highlight key predictors that remain significant across all models.</strong></p></li>
+<li><p><strong>Discuss the practical importance</strong> of the findings.</p></li>
+</ul>
+</section>
+<section id="final-summary" class="level5" data-number="2.3.1.2.9">
+<h5 data-number="2.3.1.2.9" class="anchored" data-anchor-id="final-summary"><span class="header-section-number">2.3.1.2.9</span> <strong>Final Summary:</strong></h5>
+<ol type="1">
+<li><p><strong>Define blocks logically</strong> based on theoretical reasoning.</p></li>
+<li><p><strong>Model 1 (Block 1 only):</strong> Establishes a baseline.</p></li>
+<li><p><strong>Model 2 (Block 1 + Block 2):</strong> Measures improvement after adding more predictors.</p></li>
+<li><p><strong>Model 3 (Full Model):</strong> Tests if additional variables further enhance prediction.</p></li>
+<li><p><strong>Compare models using ΔR2\Delta R^2 and F-tests</strong>.</p></li>
+<li><p><strong>Evaluate individual predictor significance</strong>.</p></li>
+<li><p><strong>Assess overall model fit (Adjusted R^2, AIC, BIC, RMSE).</strong></p></li>
+<li><p><strong>Ensure assumptions are met</strong> before drawing conclusions.</p></li>
+</ol>
+</section>
+</section>
+<section id="presenting-statistical-results" class="level4" data-number="2.3.1.3">
+<h4 data-number="2.3.1.3" class="anchored" data-anchor-id="presenting-statistical-results"><span class="header-section-number">2.3.1.3</span> Presenting statistical results</h4>
+<p>Please visit this link:</p>
+<ul>
+<li><a href="https://danawanzer.github.io/stats-with-jamovi/regression.html" class="uri">https://danawanzer.github.io/stats-with-jamovi/regression.html</a></li>
+</ul>
+</section>
 </section>
 </section>
 <section id="sec-04" class="level2" data-number="2.4">
