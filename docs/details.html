@@ -228,6 +228,7 @@ window.Quarto = {
   <li><a href="#sec-06" id="toc-sec-06" class="nav-link" data-scroll-target="#sec-06"><span class="header-section-number">2.6</span> Exploratory Factor Analysis</a>
   <ul class="collapse">
   <li><a href="#good-to-know-5" id="toc-good-to-know-5" class="nav-link" data-scroll-target="#good-to-know-5">Good to know</a></li>
+  <li><a href="#summary-table-of-methods" id="toc-summary-table-of-methods" class="nav-link" data-scroll-target="#summary-table-of-methods"><strong>Summary Table of Methods</strong></a></li>
   </ul></li>
   <li><a href="#sec-07" id="toc-sec-07" class="nav-link" data-scroll-target="#sec-07"><span class="header-section-number">2.7</span> Confirmatory Factor Analysis</a>
   <ul class="collapse">
@@ -2011,6 +2012,629 @@ Figure&nbsp;2.1: Multivariate Statistical Methods
 </ul>
 <section id="good-to-know-5" class="level3">
 <h3 class="anchored" data-anchor-id="good-to-know-5">Good to know</h3>
+<p>Exploratory Factor Analysis (<strong>EFA</strong>) is a statistical method used to identify underlying constructs (latent variables) that explain the patterns of correlations among observed variables. The main goal of EFA is to uncover the hidden structure in data and to group variables into meaningful factors based on shared variance.</p>
+<p>EFA differs from Principal Component Analysis (<strong>PCA</strong>) primarily in its goal and underlying assumptions:</p>
+<ul>
+<li><p><strong>EFA</strong> assumes that observed variables reflect underlying latent constructs (factors), and distinguishes between common and unique variance. It aims to reveal these latent constructs.</p></li>
+<li><p><strong>PCA</strong> does not distinguish between common and unique variance. Instead, it reduces data dimensions by creating new uncorrelated components, summarizing maximum total variance without assuming underlying latent variables.</p></li>
+</ul>
+<p>In short, <strong>EFA</strong> seeks meaningful latent factors, while <strong>PCA</strong> seeks</p>
+<hr>
+<p>In jamovi, you can choose from several methods for extracting factors during EFA:</p>
+<section id="minimum-residuals-minres" class="level4">
+<h4 class="anchored" data-anchor-id="minimum-residuals-minres">1. <strong>Minimum Residuals (MinRes)</strong></h4>
+<ul>
+<li><p><strong>What it does:</strong> Minimizes the residual differences between the observed correlation matrix and the correlation matrix predicted by the factor model.</p></li>
+<li><p><strong>Advantage:</strong> Efficient, reliable with smaller samples; produces stable solutions even when data aren’t perfectly normal.</p></li>
+<li><p><strong>When to use:</strong> Ideal for psychological data, especially with moderate sample sizes or when normality might be violated.</p></li>
+</ul>
+</section>
+<section id="maximum-likelihood-ml" class="level4">
+<h4 class="anchored" data-anchor-id="maximum-likelihood-ml">2. <strong>Maximum Likelihood (ML)</strong></h4>
+<ul>
+<li><p><strong>What it does:</strong> Finds factors that best reproduce the observed correlations assuming multivariate normality of variables.</p></li>
+<li><p><strong>Advantage:</strong> Allows hypothesis testing and provides goodness-of-fit measures (e.g., chi-square fit tests).</p></li>
+<li><p><strong>When to use:</strong> Best if you want formal statistical tests of your factor model, but requires larger samples and normally distributed data.</p></li>
+</ul>
+</section>
+<section id="principal-axis-factoring-paf" class="level4">
+<h4 class="anchored" data-anchor-id="principal-axis-factoring-paf">3. <strong>Principal Axis Factoring (PAF)</strong></h4>
+<ul>
+<li><p><strong>What it does:</strong> Focuses exclusively on the shared variance among items, extracting common factors only.</p></li>
+<li><p><strong>Advantage:</strong> Clear interpretation of underlying psychological constructs by excluding unique variance.</p></li>
+<li><p><strong>When to use:</strong> Commonly used when theoretical clarity about shared latent factors is important (e.g., questionnaire validation).</p></li>
+</ul>
+<p><strong>Summary (Which to choose?):</strong></p>
+<ul>
+<li><p><strong>Minimum Residuals:</strong><br>
+Good general-purpose method; robust, especially for smaller to moderate-sized samples.</p></li>
+<li><p><strong>Maximum Likelihood:</strong><br>
+Preferred when you have large samples, normally distributed data, and need formal statistical tests.</p></li>
+<li><p><strong>Principal Axis Factoring:</strong><br>
+Best for clearly isolating common variance and understanding underlying psychological dimensions (popular in questionnaire design).</p></li>
+</ul>
+<p>By understanding these methods, you can choose the one most suitable for your specific data and research goals.</p>
+<hr>
+</section>
+<section id="why-rotate-factors" class="level4">
+<h4 class="anchored" data-anchor-id="why-rotate-factors"><strong>Why Rotate Factors?</strong></h4>
+<p>After extracting factors, rotation simplifies interpretation by clarifying the relationship between variables and factors.</p>
+<p>jamovi provides two main types of rotations:</p>
+<section id="orthogonal-rotation-e.g.-varimax" class="level5">
+<h5 class="anchored" data-anchor-id="orthogonal-rotation-e.g.-varimax"><strong>1. Orthogonal Rotation (e.g., Varimax)</strong></h5>
+<p><strong>Orthogonal rotations</strong> force factors to remain uncorrelated.</p>
+<ul>
+<li><strong>Advantages:</strong></li>
+</ul>
+<pre><code>-   Factors are easier to interpret because each variable typically loads strongly on only one factor.
+
+-   Produces clearer, distinct factors, which simplifies the structure.</code></pre>
+<ul>
+<li><strong>Disadvantages:</strong></li>
+</ul>
+<pre><code>-   Assumes factors are completely independent, which is often unrealistic in psychology.
+
+-    Can obscure meaningful relationships if factors actually correlate in reality.</code></pre>
+<ul>
+<li><strong>When to use:</strong><br>
+When you theoretically assume factors are independent constructs (e.g., distinct personality traits).</li>
+</ul>
+</section>
+<section id="oblique-rotation-e.g.-oblimin-promax" class="level5">
+<h5 class="anchored" data-anchor-id="oblique-rotation-e.g.-oblimin-promax"><strong>2. Oblique Rotation (e.g., Oblimin, Promax)</strong></h5>
+<p><strong>Oblique rotations</strong> allow factors to correlate.</p>
+<ul>
+<li><strong>Advantages:</strong></li>
+</ul>
+<pre><code>-   Provides more realistic results in psychology, as psychological constructs often naturally correlate (e.g., anxiety and depression).
+
+-   Can yield richer insights into relationships between latent constructs.</code></pre>
+<ul>
+<li><p><strong>Disadvantages:</strong></p>
+<ul>
+<li><p>Slightly more complicated interpretation, as factors can overlap (correlate).</p></li>
+<li><p>Factor correlations add complexity, which might be more difficult for beginners to interpret clearly.</p></li>
+</ul></li>
+<li><p><strong>When to use:</strong><br>
+Ideal when you expect factors to correlate—common in psychological research.</p></li>
+</ul>
+</section>
+<section id="summary-table-1" class="level5">
+<h5 class="anchored" data-anchor-id="summary-table-1"><strong>Summary Table</strong></h5>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Rotation Method</th>
+<th>Advantage</th>
+<th>Disadvantage</th>
+<th>When Ideal?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Orthogonal (Varimax)</td>
+<td>Easy interpretation; distinct, independent factors</td>
+<td>May oversimplify; ignores correlations</td>
+<td>Factors expected to be independent, clearly distinct</td>
+</tr>
+<tr class="even">
+<td>Oblique (Oblimin, Promax)</td>
+<td>Realistic; allows correlated factors</td>
+<td>More complex interpretation due to correlations</td>
+<td>Factors expected to correlate; common in psychology</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Recommendation (psychology research):</strong><br>
+Usually, an <strong>oblique rotation</strong> (e.g., Oblimin) is preferable in psychology since most psychological constructs naturally correlate. However, choose according to your specific theoretical assumptions and interpretive clarity.</p>
+<hr>
+</section>
+</section>
+<section id="what-changes-during-rotation" class="level4">
+<h4 class="anchored" data-anchor-id="what-changes-during-rotation"><strong>What Changes During Rotation?</strong></h4>
+<ul>
+<li><p><strong>Factor Loadings:</strong><br>
+Rotation rearranges the loadings to enhance interpretability. After rotation, each factor ideally has clearer, more distinct clusters of variables (stronger loadings on some factors, lower loadings on others).</p></li>
+<li><p><strong>Interpretation of Factors:</strong><br>
+Rotation makes factors easier to interpret by emphasizing simpler, theoretically meaningful structures.</p></li>
+<li><p><strong>Factor Correlations (Oblique rotations only):</strong><br>
+Oblique rotations allow factors to correlate, so correlations between factors can emerge or change during rotation.</p></li>
+</ul>
+</section>
+<section id="what-does-not-change-during-rotation" class="level4">
+<h4 class="anchored" data-anchor-id="what-does-not-change-during-rotation"><strong>What Does Not Change During Rotation?</strong></h4>
+<ul>
+<li><p><strong>Amount of Total Variance Explained:</strong><br>
+The overall variance explained by all extracted factors together remains exactly the same before and after rotation.</p></li>
+<li><p><strong>Fit of the Factor Model:</strong><br>
+The underlying statistical fit (e.g., how well the factor model matches observed correlations) is unchanged.</p></li>
+<li><p><strong>Number of Factors Extracted:</strong><br>
+Rotation does not add or remove factors; it simply rearranges their loadings.</p></li>
+</ul>
+</section>
+<section id="purpose-of-rotation" class="level4">
+<h4 class="anchored" data-anchor-id="purpose-of-rotation"><strong>Purpose of Rotation:</strong></h4>
+<p>The primary purpose of rotation is to <strong>simplify and clarify</strong> the factor structure, making it easier to interpret and align with theoretical expectations.</p>
+<p><strong>In short:</strong></p>
+<ul>
+<li><p>Rotation <strong>does NOT change</strong> how well your factors describe the data, only how clearly they can be interpreted.</p></li>
+<li><p>It is a valuable step in making sense of psychological constructs measured by your variables.</p></li>
+</ul>
+<hr>
+</section>
+<section id="interpreting-factor-loadings-tables" class="level4">
+<h4 class="anchored" data-anchor-id="interpreting-factor-loadings-tables"><strong>Interpreting Factor Loadings Tables</strong></h4>
+<p>The <strong>Factor Loadings</strong> table shows the strength and direction of relationships between each observed variable (e.g., questionnaire items) and the extracted factors.</p>
+<section id="orthogonal-rotation-e.g.-varimax-1" class="level5">
+<h5 class="anchored" data-anchor-id="orthogonal-rotation-e.g.-varimax-1"><strong>1. Orthogonal Rotation (e.g., Varimax)</strong></h5>
+<ul>
+<li><p><strong>Factors are independent (uncorrelated).</strong></p></li>
+<li><p>Loadings represent simple correlations between variables and factors.</p></li>
+<li><p><strong>Interpretation:</strong></p>
+<ul>
+<li><p>Values typically range between <strong>-1 and +1</strong>.</p></li>
+<li><p>Higher absolute values (often &gt; .4 or .5) indicate strong relationships between the variable and that factor.</p></li>
+<li><p>Variables ideally load strongly onto only one factor, making interpretation clear.</p></li>
+<li><p>You interpret each factor independently because there’s no correlation among them.</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="oblique-rotation-e.g.-oblimin" class="level5">
+<h5 class="anchored" data-anchor-id="oblique-rotation-e.g.-oblimin"><strong>2. Oblique Rotation (e.g., Oblimin)</strong></h5>
+<ul>
+<li><p><strong>Factors can correlate with each other.</strong></p></li>
+<li><p>Factor loadings here represent <strong>partial correlations</strong>, meaning each loading reflects the unique contribution of the variable to that factor, controlling for correlations between factors.</p></li>
+<li><p>The output often includes two tables:</p>
+<ul>
+<li><p><strong>Pattern Matrix:</strong><br>
+Shows unique relationships (loadings) between each variable and factors, excluding the overlap caused by factor correlations.<br>
+→ <strong>Use this table for interpreting and naming factors.</strong></p></li>
+<li><p><strong>Structure Matrix (if provided):</strong><br>
+Shows simple correlations between each variable and factors, including overlap due to factor correlations.<br>
+→ Useful to check overall relationships but less helpful for clear factor interpretation.</p></li>
+</ul></li>
+<li><p><strong>Interpretation:</strong></p>
+<ul>
+<li><p>As with orthogonal rotations, higher absolute values indicate stronger relationships.</p></li>
+<li><p>Variables can load strongly onto multiple factors more often, making interpretation somewhat more complex.</p></li>
+<li><p>Check the <strong>inter-factor correlations</strong> separately to see how related the factors are.</p></li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="example-briefly" class="level4">
+<h4 class="anchored" data-anchor-id="example-briefly"><strong>Example (briefly):</strong></h4>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Variable</th>
+<th>Factor 1</th>
+<th>Factor 2</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Item 1</td>
+<td>0.81</td>
+<td>0.10</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Item 2</td>
+<td>0.78</td>
+<td>-0.05</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Item 3</td>
+<td>-0.09</td>
+<td>0.84</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Item 4</td>
+<td>0.05</td>
+<td>0.75</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><p><strong>Orthogonal Rotation Interpretation:</strong></p>
+<ul>
+<li><p>Item 1 &amp; 2 load highly on Factor 1.</p></li>
+<li><p>Item 3 &amp; 4 load highly on Factor 2.</p></li>
+<li><p>Factors interpreted separately.</p></li>
+</ul></li>
+<li><p><strong>Oblique Rotation Interpretation:</strong></p>
+<ul>
+<li><p>Look at <strong>Pattern Matrix</strong> primarily.</p></li>
+<li><p>Similar interpretation as above but also note correlations between factors (if significant).</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="summary-quick-comparison" class="level4">
+<h4 class="anchored" data-anchor-id="summary-quick-comparison"><strong>Summary (quick comparison):</strong></h4>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Rotation Type</th>
+<th>Factor Correlations</th>
+<th>Loadings Interpretation</th>
+<th>Complexity</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Orthogonal</td>
+<td>Not allowed</td>
+<td>Simple correlations; easy, independent interpretation</td>
+<td>Easier</td>
+</tr>
+<tr class="even">
+<td>Oblique</td>
+<td>Allowed</td>
+<td>Partial correlations; consider factor overlap</td>
+<td>Slightly more complex</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="which-to-choose" class="level4">
+<h4 class="anchored" data-anchor-id="which-to-choose"><strong>Which to choose?</strong></h4>
+<p>In psychology, oblique rotations are often preferable, as psychological constructs usually correlate. The key to interpretation in oblique rotations is the <strong>Pattern Matrix</strong>, supported by the inter-factor correlations.</p>
+<hr>
+</section>
+<section id="acceptable-explained-variance-in-efa-vs.-pca" class="level4">
+<h4 class="anchored" data-anchor-id="acceptable-explained-variance-in-efa-vs.-pca"><strong>Acceptable Explained Variance in EFA vs.&nbsp;PCA</strong></h4>
+<section id="exploratory-factor-analysis-efa" class="level5">
+<h5 class="anchored" data-anchor-id="exploratory-factor-analysis-efa"><strong>Exploratory Factor Analysis (EFA):</strong></h5>
+<ul>
+<li><p>EFA identifies <strong>latent constructs</strong> and focuses on <strong>shared (common) variance</strong> among variables.</p></li>
+<li><p>Typically, a good EFA solution explains around <strong>40–70%</strong> of the total variance.</p>
+<ul>
+<li><p><strong>~50–60%</strong> variance explained is often considered adequate.</p></li>
+<li><p>Above <strong>70%</strong> is very good, though rarely reached in psychological research due to measurement errors and unique variance of variables.</p></li>
+<li><p>Explained variance lower than <strong>40%</strong> often signals unclear or inadequate factor structure.</p></li>
+</ul></li>
+<li><p><strong>Why typically lower than PCA?</strong><br>
+Because EFA intentionally excludes <strong>unique variance</strong> (variance specific to individual items, including measurement errors), explained variance percentages are usually lower than PCA.</p></li>
+</ul>
+</section>
+<section id="principal-component-analysis-pca" class="level5">
+<h5 class="anchored" data-anchor-id="principal-component-analysis-pca"><strong>Principal Component Analysis (PCA):</strong></h5>
+<ul>
+<li><p>PCA reduces dimensionality by summarizing <strong>total variance</strong>, both common and unique.</p></li>
+<li><p>Usually achieves higher explained variance percentages, often around <strong>70–90%</strong> or even higher with fewer components.</p></li>
+<li><p>Common thresholds:</p>
+<ul>
+<li><p><strong>~70–80%</strong> is considered good.</p></li>
+<li><p>Above <strong>80%</strong> is excellent.</p></li>
+<li><p>Below <strong>60%</strong> would generally be seen as poor in PCA.</p></li>
+</ul></li>
+<li><p><strong>Why typically higher than EFA?</strong><br>
+PCA doesn’t differentiate between common and unique variance; it simply captures as much variance as possible, including variance that may be due to measurement error or unique item characteristics.</p></li>
+</ul>
+</section>
+<section id="summary-table-2" class="level5">
+<h5 class="anchored" data-anchor-id="summary-table-2"><strong>Summary Table:</strong></h5>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Method</th>
+<th>Typical Explained Variance</th>
+<th>Includes Unique Variance?</th>
+<th>Interpretation</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>EFA</strong></td>
+<td>~40–70% (often ~50–60%)</td>
+<td>No</td>
+<td>Lower due to exclusion of unique variance</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>PCA</strong></td>
+<td>~70–90%</td>
+<td>Yes</td>
+<td>Higher due to inclusion of unique variance</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="when-to-use-each" class="level4">
+<h4 class="anchored" data-anchor-id="when-to-use-each"><strong>When to use each?</strong></h4>
+<ul>
+<li><p><strong>Use EFA</strong> when interested in underlying latent psychological constructs.</p></li>
+<li><p><strong>Use PCA</strong> when the main goal is efficient data reduction, and when maximizing variance explained is more important than isolating latent factors.</p></li>
+</ul>
+<p>Understanding these differences helps you set realistic expectations for the variance explained by your analysis.</p>
+<hr>
+</section>
+<section id="common-assumptions-and-requirements-for-efa-and-pca" class="level4">
+<h4 class="anchored" data-anchor-id="common-assumptions-and-requirements-for-efa-and-pca"><strong>Common Assumptions and Requirements for EFA and PCA</strong></h4>
+<p>When conducting either <strong>Exploratory Factor Analysis (EFA)</strong> or <strong>Principal Component Analysis (PCA)</strong>, several important conditions must be met. These conditions ensure that your data are suitable for a meaningful and reliable analysis:</p>
+<section id="adequate-sample-size" class="level5">
+<h5 class="anchored" data-anchor-id="adequate-sample-size"><strong>1. Adequate Sample Size</strong></h5>
+<p>Both methods require an appropriate number of participants to yield stable and meaningful results.</p>
+<ul>
+<li><p><strong>General Rule of Thumb</strong>:</p>
+<ul>
+<li><p>Minimum: about <strong>100 participants</strong>, or at least <strong>5–10 participants per variable</strong> (item).</p></li>
+<li><p>Ideal: <strong>200–300 or more</strong> for stable, robust results.</p></li>
+</ul></li>
+<li><p><strong>Why important?</strong> A small sample can lead to unstable factors or components, making it difficult to generalize your findings.</p></li>
+</ul>
+</section>
+<section id="intercorrelation-among-variables" class="level5">
+<h5 class="anchored" data-anchor-id="intercorrelation-among-variables"><strong>2. Intercorrelation Among Variables</strong></h5>
+<p>Variables should be sufficiently correlated to justify summarizing them into factors or components.</p>
+<ul>
+<li><p><strong>Why important?</strong> Both EFA and PCA rely on identifying patterns among variables. Without meaningful correlations, neither method will be useful.</p></li>
+<li><p><strong>How to check this?</strong></p></li>
+</ul>
+<pre><code>-   Inspect correlation matrices: ideally, many correlations should be **≥ 0.30**.
+
+-   **Bartlett’s Test of Sphericity** (see below) also helps assess this.</code></pre>
+</section>
+<section id="linearity" class="level5">
+<h5 class="anchored" data-anchor-id="linearity"><strong>3. Linearity</strong></h5>
+<p>Both methods assume linear relationships among variables.</p>
+<ul>
+<li><p><strong>Why important?</strong> Factor/component extraction is based on correlation, which measures linear relationships. Nonlinear relationships weaken the validity of EFA or PCA.</p></li>
+<li><p><strong>How to check?</strong></p>
+<ul>
+<li><p>Visually inspect scatterplots of key variable pairs.</p></li>
+<li><p>Consider transforming variables if non-linearity is detected.</p></li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="bartletts-test-of-sphericity" class="level4">
+<h4 class="anchored" data-anchor-id="bartletts-test-of-sphericity"><strong>4. Bartlett’s Test of Sphericity</strong></h4>
+<p>This statistical test checks whether the correlation matrix is significantly different from an identity matrix (no correlations among variables).</p>
+<ul>
+<li><strong>Interpretation:</strong></li>
+</ul>
+<pre><code>-   **Significant result (p \&lt; .05)**: Indicates sufficient correlations among variables to proceed.
+
+-   **Non-significant result (p ≥ .05)**: Suggests insufficient correlations; EFA or PCA may not be meaningful.</code></pre>
+<ul>
+<li><strong>Why important?</strong> It confirms the presence of meaningful relationships among variables, essential for both methods.</li>
+</ul>
+<section id="kaiser-meyer-olkin-kmo-measure-of-sampling-adequacy" class="level5">
+<h5 class="anchored" data-anchor-id="kaiser-meyer-olkin-kmo-measure-of-sampling-adequacy"><strong>5. Kaiser-Meyer-Olkin (KMO) Measure of Sampling Adequacy</strong></h5>
+<p>This statistic assesses how suitable your data and sample size are for factor/component analysis by evaluating the proportion of shared variance among variables.</p>
+<ul>
+<li><p><strong>Interpretation of KMO values:</strong></p>
+<ul>
+<li><p><strong>≥ 0.80</strong>: Excellent</p></li>
+<li><p><strong>0.70–0.79</strong>: Good</p></li>
+<li><p><strong>0.60–0.69</strong>: Mediocre but acceptable</p></li>
+<li><p><strong>0.50–0.59</strong>: Poor, but analysis may proceed cautiously</p></li>
+<li><p><strong>&lt; 0.50</strong>: Unacceptable; reconsider variables or sample size</p></li>
+</ul></li>
+<li><p><strong>Why important?</strong> Higher KMO indicates that your variables have sufficient shared variance for EFA or PCA, enhancing the likelihood of meaningful results.</p></li>
+<li><p><strong>Summary Table: Shared Assumptions for EFA and PCA</strong></p></li>
+</ul>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Assumption</th>
+<th>Explanation</th>
+<th>Acceptable Criteria</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Sample Size</strong></td>
+<td>Stability and generalizability</td>
+<td>≥ 100 (ideally ≥ 200), 5–10 per variable</td>
+</tr>
+<tr class="even">
+<td><strong>Intercorrelation</strong></td>
+<td>Variables must correlate meaningfully</td>
+<td>Many correlations ≥ 0.30</td>
+</tr>
+<tr class="odd">
+<td><strong>Linearity</strong></td>
+<td>Linear relationships between variables</td>
+<td>Confirmed visually or statistically</td>
+</tr>
+<tr class="even">
+<td><strong>Bartlett’s Test</strong></td>
+<td>Tests if correlations differ from zero</td>
+<td>Significant (p &lt; .05)</td>
+</tr>
+<tr class="odd">
+<td><strong>KMO Measure</strong></td>
+<td>Measures sampling adequacy &amp; shared variance</td>
+<td>Ideally ≥ 0.60 (higher is better)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Final Note:</strong><br>
+These assumptions are fundamental to ensuring both <strong>EFA and PCA</strong> yield meaningful, interpretable, and reliable outcomes in psychological research. Always confirm these conditions are met before proceeding with your analysis.</p>
+<hr>
+</section>
+</section>
+<section id="factor-scores-calculation-and-importance-in-efa" class="level4">
+<h4 class="anchored" data-anchor-id="factor-scores-calculation-and-importance-in-efa"><strong>Factor Scores: Calculation and Importance in EFA</strong></h4>
+<p>After identifying factors through EFA, the next step is often to compute <strong>factor scores</strong> for individual participants. Factor scores represent each participant’s position on the identified latent dimensions (factors).</p>
+<section id="methods-for-calculating-factor-scores" class="level5">
+<h5 class="anchored" data-anchor-id="methods-for-calculating-factor-scores"><strong>Methods for Calculating Factor Scores:</strong></h5>
+<p>There are several methods, but the most common ones include:</p>
+<p><strong>1. Regression Method (Most common in jamovi/SPSS)</strong></p>
+<ul>
+<li><p>Uses regression weights derived from factor loadings and correlations among variables to estimate factor scores.</p></li>
+<li><p>Provides scores that maximize reliability and validity.</p></li>
+</ul>
+<p><strong>Advantages:</strong></p>
+<ul>
+<li><p>More accurate, statistically optimal estimates.</p></li>
+<li><p>Reduces measurement error.</p></li>
+</ul>
+<p><strong>Disadvantages:</strong></p>
+<ul>
+<li>Scores might be correlated across factors (particularly when using oblique rotations).</li>
+</ul>
+<p><strong>2. Bartlett Method</strong></p>
+<ul>
+<li>Similar to the regression method, but gives slightly different weights to variables, optimizing for lower error variance.</li>
+</ul>
+<p><strong>Advantages:</strong></p>
+<ul>
+<li>Reduces correlation between factor scores.</li>
+</ul>
+<p><strong>Disadvantages:</strong></p>
+<ul>
+<li>Scores may still correlate somewhat, especially if factors are oblique.</li>
+</ul>
+<p><strong>3. Anderson-Rubin Method</strong></p>
+<ul>
+<li>Creates orthogonal (uncorrelated) factor scores, ensuring complete independence among factors.</li>
+</ul>
+<p><strong>Advantages:</strong></p>
+<ul>
+<li><p>Produces completely uncorrelated factor scores.</p></li>
+<li><p>Useful when independence among factors is necessary.</p></li>
+</ul>
+<p><strong>Disadvantages:</strong></p>
+<ul>
+<li><p>Scores may be less directly interpretable or intuitive.</p></li>
+<li><p>Slightly less reliable as predictors.</p></li>
+</ul>
+<p><strong>4. Simple Sum or Mean Scores (Non-statistical approach)</strong></p>
+<ul>
+<li>Summing or averaging raw item scores grouped by factor.</li>
+</ul>
+<p><strong>Advantages:</strong></p>
+<ul>
+<li><p>Easy and intuitive to calculate.</p></li>
+<li><p>Very transparent and practical for reporting purposes.</p></li>
+</ul>
+<p><strong>Disadvantages:</strong></p>
+<ul>
+<li><p>Less accurate as they assume equal weighting for all items.</p></li>
+<li><p>Ignoring loading differences reduces accuracy.</p></li>
+</ul>
+</section>
+<section id="which-method-to-choose" class="level5">
+<h5 class="anchored" data-anchor-id="which-method-to-choose"><strong>Which method to choose?</strong></h5>
+<ul>
+<li><p><strong>Regression method</strong> is generally preferred for most research purposes due to accuracy and statistical robustness.</p></li>
+<li><p><strong>Bartlett method</strong> is useful if you prefer lower correlations between scores.</p></li>
+<li><p><strong>Anderson-Rubin</strong> is ideal when strict independence is needed.</p></li>
+<li><p><strong>Simple sum/mean scores</strong> are good when simplicity outweighs precision, such as in practical assessments or brief reports.</p></li>
+</ul>
+</section>
+<section id="importance-of-factor-scores" class="level5">
+<h5 class="anchored" data-anchor-id="importance-of-factor-scores"><strong>Importance of Factor Scores:</strong></h5>
+<p>Factor scores are crucial because they:</p>
+<ul>
+<li><p>Allow researchers to use latent factors in subsequent analyses (correlations, regressions, t-tests, ANOVAs).</p></li>
+<li><p>Provide a precise measure of individual differences on psychological constructs (e.g., personality traits, attitudes, anxiety).</p></li>
+<li><p>Facilitate interpretation and communication of results, making abstract latent variables tangible and practical.</p></li>
+</ul>
+</section>
+</section>
+</section>
+<section id="summary-table-of-methods" class="level3">
+<h3 class="anchored" data-anchor-id="summary-table-of-methods"><strong>Summary Table of Methods</strong></h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Method</th>
+<th>Advantages</th>
+<th>Disadvantages</th>
+<th>Best used when…</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Regression</strong></td>
+<td>Accurate, statistically optimal</td>
+<td>May correlate between factors</td>
+<td>General use; accuracy prioritized</td>
+</tr>
+<tr class="even">
+<td><strong>Bartlett</strong></td>
+<td>Reduces correlations somewhat</td>
+<td>Still somewhat correlated</td>
+<td>Lower correlations desired</td>
+</tr>
+<tr class="odd">
+<td><strong>Anderson-Rubin</strong></td>
+<td>Factors scores fully independent</td>
+<td>Less intuitive interpretation</td>
+<td>Independence strictly required</td>
+</tr>
+<tr class="even">
+<td><strong>Sum/Mean</strong></td>
+<td>Easy, intuitive</td>
+<td>Ignores weighting &amp; less accurate</td>
+<td>Simplicity &amp; ease is priority</td>
+</tr>
+</tbody>
+</table>
+<p><strong>In summary:</strong><br>
+Calculating and interpreting factor scores is critical for making your EFA results practically useful and meaningful in psychological research.</p>
 </section>
 </section>
 <section id="sec-07" class="level2" data-number="2.7">
