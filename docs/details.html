@@ -2670,6 +2670,209 @@ Calculating and interpreting factor scores is critical for making your EFA resul
 </ul>
 <section id="good-to-know-7" class="level3">
 <h3 class="anchored" data-anchor-id="good-to-know-7">Good to know</h3>
+<section id="what-is-confirmatory-factor-analysis-cfa" class="level4">
+<h4 class="anchored" data-anchor-id="what-is-confirmatory-factor-analysis-cfa">What Is Confirmatory Factor Analysis (CFA)?</h4>
+<p><strong>Confirmatory Factor Analysis (CFA)</strong> is a statistical method used to <strong>test whether a predefined factor structure fits the observed data</strong>. In other words, CFA is used to confirm whether your data behaves in the way your psychological theory predicts.</p>
+<p>While <strong>Exploratory Factor Analysis (EFA)</strong> is used to discover patterns in the data without strong prior assumptions, <strong>CFA is theory-driven</strong>. You begin with a hypothesis about how many latent (unobserved) variables — called <strong>factors</strong> — exist, and which observed variables (items) are associated with them.</p>
+</section>
+<section id="key-features-of-cfa" class="level4">
+<h4 class="anchored" data-anchor-id="key-features-of-cfa">Key Features of CFA</h4>
+<ul>
+<li><p><strong>Model-based approach:</strong> You specify in advance which observed items are expected to load onto which latent factor(s).</p></li>
+<li><p><strong>Hypothesis testing:</strong> CFA evaluates how well the proposed factor model fits the actual data</p></li>
+<li><p><strong>Measurement validation:</strong> CFA is commonly used to test the validity and structure of psychological scales or questionnaires.</p></li>
+</ul>
+</section>
+<section id="example-in-psychology" class="level4">
+<h4 class="anchored" data-anchor-id="example-in-psychology">Example in Psychology</h4>
+<p>Imagine you’re studying <strong>academic motivation</strong>, and your theory says it has two dimensions:</p>
+<ul>
+<li><p><strong>Intrinsic Motivation</strong></p></li>
+<li><p><strong>Extrinsic Motivation</strong></p></li>
+</ul>
+<p>You design a questionnaire where:</p>
+<ul>
+<li><p>Items 1–3 measure <strong>Intrinsic Motivation</strong></p></li>
+<li><p>Items 4–6 measure <strong>Extrinsic Motivation</strong></p></li>
+</ul>
+<p>With <strong>CFA</strong>, you test this <strong>two-factor model</strong> to see if the data supports it. The output will tell you how well your model fits the data using <strong>fit indices</strong> (e.g., Chi-square, RMSEA, CFI), and whether each item significantly relates to the factor you expected.</p>
+</section>
+<section id="cfa-vs.-efa-whats-the-difference" class="level4">
+<h4 class="anchored" data-anchor-id="cfa-vs.-efa-whats-the-difference">CFA vs.&nbsp;EFA — What’s the Difference?</h4>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Feature</th>
+<th>EFA (Exploratory)</th>
+<th>CFA (Confirmatory)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Purpose</td>
+<td>Discover structure</td>
+<td>Test a hypothesized structure</td>
+</tr>
+<tr class="even">
+<td>Model specification</td>
+<td>No pre-specified model</td>
+<td>Model is defined by researcher</td>
+</tr>
+<tr class="odd">
+<td>Flexibility</td>
+<td>Data-driven, open-ended</td>
+<td>Theory-driven, restricted</td>
+</tr>
+<tr class="even">
+<td>Cross-loadings</td>
+<td>Allowed (by default)</td>
+<td>Usually constrained (items load on one factor)</td>
+</tr>
+<tr class="odd">
+<td>Stage of research</td>
+<td>Early (exploratory) stages</td>
+<td>Later (testing/validation) stages</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="why-is-cfa-important-in-psychology" class="level4">
+<h4 class="anchored" data-anchor-id="why-is-cfa-important-in-psychology">Why Is CFA Important in Psychology?</h4>
+<p>CFA is essential for:</p>
+<ul>
+<li><p><strong>Validating psychological constructs</strong> (e.g., anxiety, motivation, well-being)</p></li>
+<li><p><strong>Testing measurement models</strong> (e.g., questionnaires or scales)</p></li>
+<li><p><strong>Providing statistical evidence</strong> that your theoretical concepts are represented accurately in the data</p></li>
+</ul>
+</section>
+<section id="evaluating-model-fit-in-cfa" class="level4">
+<h4 class="anchored" data-anchor-id="evaluating-model-fit-in-cfa"><strong>Evaluating Model Fit in CFA</strong></h4>
+<p>Once a <strong>measurement model</strong> is specified in Confirmatory Factor Analysis (CFA), we need to assess how well this model fits the actual data. This is called <strong>model fit assessment</strong>.</p>
+<p>There are multiple ways to evaluate model fit, but they generally fall into two categories:</p>
+<ol type="1">
+<li><p><strong>Exact fit test</strong> (Chi-square test)</p></li>
+<li><p><strong>Approximate fit indices</strong> (RMSEA, CFI, TLI, SRMR, etc.)</p></li>
+</ol>
+<section id="chi-square-test-of-model-fit-χ²-test" class="level5">
+<h5 class="anchored" data-anchor-id="chi-square-test-of-model-fit-χ²-test">1. <strong>Chi-square Test of Model Fit (χ² Test)</strong></h5>
+<p>This is the most fundamental test in CFA. It compares the observed covariance matrix (from your data) with the covariance matrix predicted by your model.</p>
+<section id="hypotheses" class="level6">
+<h6 class="anchored" data-anchor-id="hypotheses"><strong>Hypotheses:</strong></h6>
+<ul>
+<li><p><strong>Null hypothesis (H₀):</strong> The model fits the data perfectly.</p></li>
+<li><p><strong>Alternative hypothesis (H₁):</strong> The model does not fit the data perfectly.</p></li>
+</ul>
+</section>
+<section id="interpretation" class="level6">
+<h6 class="anchored" data-anchor-id="interpretation"><strong>Interpretation:</strong></h6>
+<ul>
+<li><p>A <strong>non-significant</strong> result (p &gt; 0.05) → the model fits the data well.</p></li>
+<li><p>A <strong>significant</strong> result (p &lt; 0.05) → the model does <strong>not</strong> fit the data well.</p>
+<p>⚠️ <strong>BUT!</strong> The Chi-square test is <strong>very sensitive</strong> to sample size:</p></li>
+<li><p>With <strong>large samples</strong>, even good models can be rejected.</p></li>
+<li><p>With <strong>small samples</strong>, poor models may not be rejected.</p></li>
+</ul>
+<p>Because of this, we use <strong>additional indices</strong> to evaluate fit more realistically.</p>
+</section>
+</section>
+</section>
+<section id="approximate-fit-indices" class="level4">
+<h4 class="anchored" data-anchor-id="approximate-fit-indices">2. <strong>Approximate Fit Indices</strong></h4>
+<section id="rmsea-root-mean-square-error-of-approximation" class="level6">
+<h6 class="anchored" data-anchor-id="rmsea-root-mean-square-error-of-approximation"><strong>RMSEA (Root Mean Square Error of Approximation)</strong></h6>
+<ul>
+<li><p>Evaluates how well the model would fit the population covariance matrix.</p></li>
+<li><p><strong>Good fit:</strong> RMSEA &lt; 0.06</p></li>
+<li><p><strong>Acceptable fit:</strong> RMSEA &lt; 0.08</p></li>
+<li><p><strong>Includes a confidence interval (C90).</strong></p></li>
+</ul>
+<p>Tip: RMSEA penalizes <strong>complex models</strong> (with many parameters), helping avoid overfitting.</p>
+</section>
+<section id="cfi-comparative-fit-index" class="level5">
+<h5 class="anchored" data-anchor-id="cfi-comparative-fit-index"><strong>CFI (Comparative Fit Index)</strong></h5>
+<ul>
+<li><p>Compares your model with a baseline model (no relationships).</p></li>
+<li><p><strong>Good fit:</strong> CFI &gt; 0.95</p></li>
+<li><p><strong>Acceptable fit:</strong> CFI &gt; 0.90</p></li>
+</ul>
+<p>CFI adjusts for model complexity and sample size better than χ².</p>
+</section>
+<section id="tli-tucker-lewis-index-also-called-nnfi" class="level5">
+<h5 class="anchored" data-anchor-id="tli-tucker-lewis-index-also-called-nnfi"><strong>TLI (Tucker-Lewis Index)</strong> — also called <strong>NNFI</strong></h5>
+<ul>
+<li><p>Similar to CFI but penalizes complex models more.</p></li>
+<li><p><strong>Excellent fit:</strong> TLI &gt; 0.95</p></li>
+<li><p><strong>Good fit:</strong> TLI &gt; 0.90</p></li>
+<li><p><strong>Acceptable fit:</strong> TLI &gt; 0.85</p></li>
+</ul>
+</section>
+<section id="srmr-standardized-root-mean-square-residual" class="level5">
+<h5 class="anchored" data-anchor-id="srmr-standardized-root-mean-square-residual"><strong>SRMR (Standardized Root Mean Square Residual)</strong></h5>
+<ul>
+<li><p>Measures the average difference between observed and predicted correlations.</p></li>
+<li><p><strong>Good fit:</strong> SRMR &lt; 0.05</p></li>
+<li><p><strong>Acceptable fit:</strong> TLI &gt; 0.08</p></li>
+</ul>
+<p>SRMR is easier to interpret and less sensitive to sample size.</p>
+</section>
+</section>
+<section id="summary-table-for-common-fit-indices" class="level4">
+<h4 class="anchored" data-anchor-id="summary-table-for-common-fit-indices">Summary Table for Common Fit Indices</h4>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Index</strong></th>
+<th><strong>Good Fit Threshold</strong></th>
+<th><strong>Notes</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>χ² (Chi-square)</strong></td>
+<td>p &gt; 0.05</td>
+<td>Sensitive to sample size</td>
+</tr>
+<tr class="even">
+<td><strong>RMSEA</strong></td>
+<td>&lt; 0.06 (good), &lt; 0.08 (acceptable)</td>
+<td>Includes confidence interval</td>
+</tr>
+<tr class="odd">
+<td><strong>CFI</strong></td>
+<td>&gt; 0.95 (good), &gt; 0.90 (acceptable)</td>
+<td>Compares with baseline model</td>
+</tr>
+<tr class="even">
+<td><strong>TLI</strong></td>
+<td>&gt; 0.95 (excellent), &gt; 0.90 (good), &gt;0.85 (acceptable)</td>
+<td>Penalizes complexity more</td>
+</tr>
+<tr class="odd">
+<td><strong>SRMR</strong></td>
+<td>&lt; 0.05 (good) &lt; 0.08 (acceptable)</td>
+<td>Based on residuals</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="final-notes-for-psychology-students" class="level4">
+<h4 class="anchored" data-anchor-id="final-notes-for-psychology-students">Final Notes for Psychology Students:</h4>
+<ul>
+<li><p><strong>Never rely on a single fit index.</strong> Use a <strong>combination</strong> to evaluate your model.</p></li>
+<li><p>Even if fit indices look good, <strong>check factor loadings and residuals</strong>.</p></li>
+<li><p>Model fit is important, but so is <strong>theory</strong>. A well-fitting model without theoretical support is not useful.</p></li>
+</ul>
+</section>
 </section>
 </section>
 <section id="sec-09" class="level2" data-number="2.9">
