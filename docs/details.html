@@ -246,7 +246,8 @@ window.Quarto = {
   <ul class="collapse">
   <li><a href="#good-to-know-9" id="toc-good-to-know-9" class="nav-link" data-scroll-target="#good-to-know-9">Good to know</a></li>
   </ul></li>
-  <li><a href="#sec-11" id="toc-sec-11" class="nav-link" data-scroll-target="#sec-11"><span class="header-section-number">2.11</span> Logistics Regression</a>
+  <li><a href="#important-assumptions-of-lda" id="toc-important-assumptions-of-lda" class="nav-link" data-scroll-target="#important-assumptions-of-lda"><span class="header-section-number">2.11</span> Important Assumptions of LDA</a></li>
+  <li><a href="#sec-11" id="toc-sec-11" class="nav-link" data-scroll-target="#sec-11"><span class="header-section-number">2.12</span> Logistics Regression</a>
   <ul class="collapse">
   <li><a href="#good-to-know-10" id="toc-good-to-know-10" class="nav-link" data-scroll-target="#good-to-know-10">Good to know</a></li>
   </ul></li>
@@ -2653,23 +2654,6 @@ Calculating and interpreting factor scores is critical for making your EFA resul
 </ul>
 <section id="good-to-know-6" class="level3">
 <h3 class="anchored" data-anchor-id="good-to-know-6">Good to know</h3>
-</section>
-</section>
-<section id="sec-08" class="level2" data-number="2.8">
-<h2 data-number="2.8" class="anchored" data-anchor-id="sec-08"><span class="header-section-number">2.8</span> Cluster Analysis</h2>
-<ul>
-<li>Readings:
-<ul>
-<li><span class="citation" data-cites="Gao2023">Gao et al. (<a href="references.html#ref-Gao2023" role="doc-biblioref">2023</a>)</span></li>
-<li>https://www.receptiviti.com/post/the-marketers-guide-to-psycholinguistic-cluster-analysis</li>
-<li>https://siddharthgargblog.wordpress.com/2020/06/17/using-cluster-analysis-in-psychology/</li>
-</ul></li>
-<li>Computer lab: <a href="labs/stat3_lab_08.html" target="_blank">Lab 08</a></li>
-<li>Homework assignments: <a href="homework/stat3_homework_08.html" target="_blank">Homework 08</a></li>
-<li>Practice Test: Cluster Analysis (on the <a href="https://elearning.unideb.hu/">eLearning site</a>)</li>
-</ul>
-<section id="good-to-know-7" class="level3">
-<h3 class="anchored" data-anchor-id="good-to-know-7">Good to know</h3>
 <section id="what-is-confirmatory-factor-analysis-cfa" class="level4">
 <h4 class="anchored" data-anchor-id="what-is-confirmatory-factor-analysis-cfa">What Is Confirmatory Factor Analysis (CFA)?</h4>
 <p><strong>Confirmatory Factor Analysis (CFA)</strong> is a statistical method used to <strong>test whether a predefined factor structure fits the observed data</strong>. In other words, CFA is used to confirm whether your data behaves in the way your psychological theory predicts.</p>
@@ -2875,6 +2859,84 @@ Calculating and interpreting factor scores is critical for making your EFA resul
 </section>
 </section>
 </section>
+<section id="sec-08" class="level2" data-number="2.8">
+<h2 data-number="2.8" class="anchored" data-anchor-id="sec-08"><span class="header-section-number">2.8</span> Cluster Analysis</h2>
+<ul>
+<li>Readings:
+<ul>
+<li><span class="citation" data-cites="Gao2023">Gao et al. (<a href="references.html#ref-Gao2023" role="doc-biblioref">2023</a>)</span></li>
+<li>https://www.receptiviti.com/post/the-marketers-guide-to-psycholinguistic-cluster-analysis</li>
+<li>https://siddharthgargblog.wordpress.com/2020/06/17/using-cluster-analysis-in-psychology/</li>
+</ul></li>
+<li>Computer lab: <a href="labs/stat3_lab_08.html" target="_blank">Lab 08</a></li>
+<li>Homework assignments: <a href="homework/stat3_homework_08.html" target="_blank">Homework 08</a></li>
+<li>Practice Test: Cluster Analysis (on the <a href="https://elearning.unideb.hu/">eLearning site</a>)</li>
+</ul>
+<section id="good-to-know-7" class="level3">
+<h3 class="anchored" data-anchor-id="good-to-know-7">Good to know</h3>
+<section id="what-is-cluster-analysis" class="level4">
+<h4 class="anchored" data-anchor-id="what-is-cluster-analysis">What is Cluster Analysis?</h4>
+<p><strong>Cluster analysis</strong> is a type of statistical method used to group objects (like people, behaviors, or survey responses) into clusters (or groups) based on how similar they are to each other.<br>
+Imagine you have a bunch of marbles, and you want to group them by color and size without being told how many groups there should be — <strong>that’s cluster analysis</strong>!</p>
+<p>In psychology, it’s very useful because <strong>human behavior is complex</strong>. Cluster analysis helps researchers find natural groupings in their data, like different types of personalities, coping strategies, or symptom profiles.</p>
+</section>
+<section id="why-use-cluster-analysis-in-psychology" class="level4">
+<h4 class="anchored" data-anchor-id="why-use-cluster-analysis-in-psychology">Why Use Cluster Analysis in Psychology?</h4>
+<ul>
+<li><strong>Discover hidden patterns</strong>: It helps uncover subgroups that aren’t obvious.</li>
+<li><strong>Simplify complex data</strong>: It reduces complexity by grouping similar cases.</li>
+<li><strong>Form new hypotheses</strong>: It can suggest new ideas about how people differ.</li>
+<li><strong>Develop tailored interventions</strong>: For example, if different types of depression are found, treatments can be adjusted.</li>
+</ul>
+</section>
+<section id="how-does-cluster-analysis-work" class="level4">
+<h4 class="anchored" data-anchor-id="how-does-cluster-analysis-work">How Does Cluster Analysis Work?</h4>
+<p>Here’s a simple breakdown:</p>
+<ol type="1">
+<li><strong>Start with data</strong>: Each participant has measurements on several variables (e.g., anxiety, self-esteem, stress levels).</li>
+<li><strong>Measure similarity</strong>: The computer calculates how similar or different each participant is from all others.</li>
+<li><strong>Form clusters</strong>: Participants who are more similar to each other get grouped together.</li>
+<li><strong>Interpret clusters</strong>: Researchers then study the groups to see what makes them different and meaningful.</li>
+</ol>
+</section>
+<section id="main-types-of-cluster-analysis" class="level4">
+<h4 class="anchored" data-anchor-id="main-types-of-cluster-analysis">Main Types of Cluster Analysis</h4>
+<ul>
+<li><strong>Hierarchical clustering</strong>:
+<ul>
+<li>Starts with each item as its own cluster.</li>
+<li>Step-by-step, it merges the most similar clusters.</li>
+<li>Creates a <strong>tree-like diagram</strong> called a <em>dendrogram</em>.</li>
+</ul></li>
+<li><strong>K-means clustering</strong>:
+<ul>
+<li>You tell the program how many clusters you want (like, “make 3 groups”).</li>
+<li>The algorithm then groups the cases into the number of clusters you asked for.</li>
+<li>Very popular because it’s fast and simple.</li>
+</ul></li>
+</ul>
+</section>
+<section id="an-example-in-psychology" class="level4">
+<h4 class="anchored" data-anchor-id="an-example-in-psychology">An Example in Psychology</h4>
+<p>Let’s say you survey 200 college students about their coping styles during stress (problem-focused, emotion-focused, avoidance).<br>
+Using cluster analysis, you might discover: - <strong>Group 1</strong>: Students who primarily use problem-focused strategies. - <strong>Group 2</strong>: Students who rely on emotional support. - <strong>Group 3</strong>: Students who mainly avoid the problem.</p>
+<p>Now you can study these groups to see if they differ in grades, mental health, or satisfaction with life!</p>
+</section>
+<section id="important-things-to-keep-in-mind" class="level4">
+<h4 class="anchored" data-anchor-id="important-things-to-keep-in-mind">Important Things to Keep in Mind</h4>
+<ul>
+<li><strong>It’s exploratory</strong>: Cluster analysis doesn’t “prove” anything. It suggests patterns that need to be confirmed with more research.</li>
+<li><strong>Subjectivity</strong>: Researchers must decide how many clusters are meaningful, which can sometimes be a bit subjective.</li>
+<li><strong>Sensitive to variables</strong>: Which variables you include (and how you prepare them) can change the results a lot.</li>
+</ul>
+</section>
+<section id="final-thought" class="level4">
+<h4 class="anchored" data-anchor-id="final-thought">Final Thought</h4>
+<p>Cluster analysis is <strong>like letting the data speak for itself</strong>.<br>
+Instead of forcing people into pre-existing categories, it finds patterns naturally. That’s why it’s a favorite tool when psychologists want to understand <strong>how diverse and fascinating human behavior truly is</strong>.</p>
+</section>
+</section>
+</section>
 <section id="sec-09" class="level2" data-number="2.9">
 <h2 data-number="2.9" class="anchored" data-anchor-id="sec-09"><span class="header-section-number">2.9</span> MANOVA</h2>
 <ul>
@@ -2889,6 +2951,93 @@ Calculating and interpreting factor scores is critical for making your EFA resul
 </ul>
 <section id="good-to-know-8" class="level3">
 <h3 class="anchored" data-anchor-id="good-to-know-8">Good to know</h3>
+<section id="what-is-manova" class="level4">
+<h4 class="anchored" data-anchor-id="what-is-manova">What is MANOVA?</h4>
+<p><strong>MANOVA</strong> stands for <strong>Multivariate Analysis of Variance</strong>.<br>
+It’s a statistical test used when you want to see if <strong>different groups</strong> of people differ <strong>on several dependent variables at the same time</strong>.</p>
+<p>Think of it like an extension of <strong>ANOVA</strong> (Analysis of Variance), but instead of checking if groups differ on just <strong>one outcome</strong>, MANOVA looks at <strong>multiple outcomes</strong> all at once.</p>
+</section>
+<section id="why-use-manova-in-psychology" class="level4">
+<h4 class="anchored" data-anchor-id="why-use-manova-in-psychology">Why Use MANOVA in Psychology?</h4>
+<p>In psychology, people rarely differ on just one thing!<br>
+For example: - Depressed vs.&nbsp;non-depressed people might differ on <strong>anxiety</strong>, <strong>self-esteem</strong>, and <strong>social support</strong> — not just one measure.</p>
+<p><strong>MANOVA lets you test all these differences together</strong>, instead of running a bunch of separate tests.</p>
+<p><strong>Benefits:</strong> - <strong>Protects against Type I error</strong> (making a false positive mistake by running many separate tests). - <strong>Tells a richer story</strong> about how groups differ across multiple psychological dimensions.</p>
+</section>
+<section id="how-does-manova-work" class="level4">
+<h4 class="anchored" data-anchor-id="how-does-manova-work">How Does MANOVA Work?</h4>
+<p>Here’s the basic flow:</p>
+<ol type="1">
+<li><strong>Identify your groups</strong> (e.g., males vs.&nbsp;females, therapy vs.&nbsp;no therapy).</li>
+<li><strong>Identify your dependent variables</strong> (e.g., depression score, anxiety score, stress score).</li>
+<li><strong>Run MANOVA</strong>: It tests whether the combination of dependent variables is <strong>statistically different</strong> across the groups.</li>
+<li><strong>Interpret the results</strong>:
+<ul>
+<li>First, see if the overall MANOVA is significant.</li>
+<li>If yes, then look deeper at each dependent variable to find <strong>where the differences lie</strong>.</li>
+</ul></li>
+</ol>
+</section>
+<section id="a-simple-psychology-example" class="level4">
+<h4 class="anchored" data-anchor-id="a-simple-psychology-example">A Simple Psychology Example</h4>
+<p>Suppose you’re studying <strong>stress management programs</strong>.<br>
+You have <strong>two groups</strong>: - Group A: Received relaxation training - Group B: Received cognitive-behavioral therapy (CBT)</p>
+<p>You measure <strong>three outcomes</strong>: - Anxiety levels - Depression levels - Anger levels</p>
+<p><strong>MANOVA will tell you</strong>:<br>
+- Do these two groups differ in <em>their combined mental health outcomes</em>?</p>
+<p>If MANOVA says “Yes, there’s a difference,” you can then check <strong>which specific outcomes</strong> (anxiety, depression, anger) are different between the groups.</p>
+</section>
+<section id="when-should-you-use-manova" class="level4">
+<h4 class="anchored" data-anchor-id="when-should-you-use-manova">When Should You Use MANOVA?</h4>
+<ul>
+<li><strong>Multiple related dependent variables</strong>: If your outcomes are conceptually related (like different aspects of mental health), MANOVA is ideal.</li>
+<li><strong>You want a global test first</strong>: Before diving into lots of individual analyses.</li>
+<li><strong>You want to be statistically cautious</strong>: MANOVA reduces the risk of false positives compared to doing separate ANOVAs.</li>
+</ul>
+</section>
+<section id="key-assumptions-of-manova" class="level4">
+<h4 class="anchored" data-anchor-id="key-assumptions-of-manova">Key Assumptions of MANOVA</h4>
+<p>Before running it, you should check: - <strong>Independence</strong>: Participants’ responses should be independent of each other. - <strong>Normality</strong>: The dependent variables should be roughly normally distributed. - <strong>Homogeneity of covariance matrices</strong>: The relationships among the dependent variables should be similar across groups (this sounds scary, but programs like SPSS test this for you automatically).</p>
+</section>
+<section id="how-manova-differs-from-anova" class="level4">
+<h4 class="anchored" data-anchor-id="how-manova-differs-from-anova">How MANOVA Differs From ANOVA</h4>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 23%">
+<col style="width: 38%">
+<col style="width: 37%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Feature</th>
+<th>ANOVA</th>
+<th>MANOVA</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Number of outcomes</td>
+<td>1 dependent variable</td>
+<td>2 or more dependent variables</td>
+</tr>
+<tr class="even">
+<td>Example</td>
+<td>Difference in depression scores</td>
+<td>Difference in depression <strong>and</strong> anxiety <strong>and</strong> stress scores</td>
+</tr>
+<tr class="odd">
+<td>Risk of Type I error</td>
+<td>Higher if many separate ANOVAs are run</td>
+<td>Lower because it tests everything together</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="final-thought-1" class="level4">
+<h4 class="anchored" data-anchor-id="final-thought-1">Final Thought</h4>
+<p><strong>MANOVA is like a detective</strong> looking at a <strong>whole crime scene</strong> (all the outcomes together), not just one clue (one outcome).<br>
+It helps psychologists capture the complexity of human behavior <strong>without getting lost in a sea of separate tests</strong>!</p>
+</section>
 </section>
 </section>
 <section id="sec-10" class="level2" data-number="2.10">
@@ -2905,10 +3054,94 @@ Calculating and interpreting factor scores is critical for making your EFA resul
 </ul>
 <section id="good-to-know-9" class="level3">
 <h3 class="anchored" data-anchor-id="good-to-know-9">Good to know</h3>
+<section id="what-is-linear-discriminant-analysis" class="level4">
+<h4 class="anchored" data-anchor-id="what-is-linear-discriminant-analysis">What is Linear Discriminant Analysis?</h4>
+<p><strong>Linear Discriminant Analysis (LDA)</strong> is a <strong>statistical technique</strong> that is used to <strong>predict group membership</strong> based on several variables.<br>
+In simple terms, <strong>LDA finds the best way to separate groups of people</strong> based on characteristics you have measured.</p>
+<p>Think of it like <strong>drawing a line</strong> (or a plane, in multiple dimensions) that best splits different groups apart based on their data.</p>
+</section>
+<section id="why-is-lda-useful-in-psychology" class="level4">
+<h4 class="anchored" data-anchor-id="why-is-lda-useful-in-psychology">Why is LDA Useful in Psychology?</h4>
+<p>In psychology, researchers often want to <strong>classify</strong> or <strong>predict</strong> which group a person belongs to based on things like their test scores, behaviors, or symptoms.<br>
+Examples: - Predict whether someone has <strong>anxiety</strong>, <strong>depression</strong>, or <strong>no diagnosis</strong> based on their questionnaire responses. - Classify students as <strong>high-risk</strong> or <strong>low-risk</strong> for dropout based on motivation and study habits.</p>
+<p>LDA helps psychologists: - Understand which variables best separate groups. - Predict future cases’ group membership. - Simplify complex data by combining several variables into a <strong>single discriminant score</strong>.</p>
+</section>
+<section id="how-does-lda-work" class="level4">
+<h4 class="anchored" data-anchor-id="how-does-lda-work">How Does LDA Work?</h4>
+<p>Here’s the basic idea:</p>
+<ol type="1">
+<li><strong>Start with known groups</strong>: You already know which people belong to which group (e.g., diagnosed vs.&nbsp;not diagnosed).</li>
+<li><strong>Measure predictors</strong>: For each person, you have several variables (e.g., test scores, behavior ratings).</li>
+<li><strong>Find the best combination</strong>: LDA builds a mathematical formula (called a <strong>discriminant function</strong>) that best separates the groups.</li>
+<li><strong>Classify new cases</strong>: You can then use that function to predict the group of new individuals based on their data.</li>
+</ol>
+</section>
+<section id="a-psychology-example" class="level4">
+<h4 class="anchored" data-anchor-id="a-psychology-example">A Psychology Example</h4>
+<p>Imagine you are studying <strong>types of coping styles</strong> among college students:<br>
+- Group 1: Problem-focused copers<br>
+- Group 2: Emotion-focused copers</p>
+<p>You have measured: - Self-efficacy - Emotional reactivity - Social support</p>
+<p><strong>LDA will</strong>: - Find the best combination of these three variables to <strong>separate</strong> the two groups. - Create a score (discriminant score) for each student. - Help you classify new students into Group 1 or Group 2 based on their scores.</p>
+</section>
+<section id="key-concepts-in-lda" class="level4">
+<h4 class="anchored" data-anchor-id="key-concepts-in-lda">Key Concepts in LDA</h4>
+<ul>
+<li><strong>Discriminant Function</strong>: A mathematical equation like<br>
+<code>Score = (weight1 × self-efficacy) + (weight2 × emotional reactivity) + (weight3 × social support)</code></li>
+<li><strong>Centroids</strong>: The “average” discriminant score for each group.</li>
+<li><strong>Prediction Accuracy</strong>: After building the model, we check how well it classifies people into the right group.</li>
+</ul>
 </section>
 </section>
-<section id="sec-11" class="level2" data-number="2.11">
-<h2 data-number="2.11" class="anchored" data-anchor-id="sec-11"><span class="header-section-number">2.11</span> Logistics Regression</h2>
+</section>
+<section id="important-assumptions-of-lda" class="level2" data-number="2.11">
+<h2 data-number="2.11" class="anchored" data-anchor-id="important-assumptions-of-lda"><span class="header-section-number">2.11</span> Important Assumptions of LDA</h2>
+<p>Before using LDA, you should check: - <strong>Multivariate normality</strong>: The predictor variables should be normally distributed within each group. - <strong>Equal covariance</strong>: The spread of variables should be similar across groups. - <strong>Independence</strong>: The cases should be independent from one another.</p>
+<p><em>Note:</em> These assumptions sound technical, but statistical software (like SPSS, R, or Python) often checks them for you.</p>
+<section id="lda-vs.-related-methods" class="level4">
+<h4 class="anchored" data-anchor-id="lda-vs.-related-methods">LDA vs.&nbsp;Related Methods</h4>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Method</th>
+<th style="text-align: left;">What it does</th>
+<th style="text-align: left;">When to use</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>ANOVA</strong></td>
+<td style="text-align: left;">Compares group means on one variable</td>
+<td style="text-align: left;">If you’re only interested in group differences</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>MANOVA</strong></td>
+<td style="text-align: left;">Compares groups on multiple variables</td>
+<td style="text-align: left;">If you want to see if groups differ across several outcomes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>LDA</strong></td>
+<td style="text-align: left;">Predicts group membership from several predictors</td>
+<td style="text-align: left;">If you want to <strong>classify</strong> people into groups</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="final-thought-2" class="level4">
+<h4 class="anchored" data-anchor-id="final-thought-2">Final Thought</h4>
+<p><strong>LDA is like building a psychological “sorting hat” 🧙</strong>:<br>
+Based on the qualities (predictor variables) of a person, it tries to “sort” them into the right group.<br>
+It’s a powerful tool for psychologists who want to <strong>predict</strong>, <strong>understand</strong>, and <strong>simplify</strong> complex behaviors and characteristics.</p>
+</section>
+</section>
+<section id="sec-11" class="level2" data-number="2.12">
+<h2 data-number="2.12" class="anchored" data-anchor-id="sec-11"><span class="header-section-number">2.12</span> Logistics Regression</h2>
 <ul>
 <li>Readings:
 <ul>
@@ -2922,6 +3155,100 @@ Calculating and interpreting factor scores is critical for making your EFA resul
 </ul>
 <section id="good-to-know-10" class="level3">
 <h3 class="anchored" data-anchor-id="good-to-know-10">Good to know</h3>
+<section id="what-is-binomial-logistic-regression" class="level4">
+<h4 class="anchored" data-anchor-id="what-is-binomial-logistic-regression">What is Binomial Logistic Regression?</h4>
+<p><strong>Binomial logistic regression</strong> is a <strong>statistical method</strong> used to <strong>predict a yes/no outcome</strong> (or success/failure, or group A/group B) <strong>based on one or more predictor variables</strong>.</p>
+<p>In short, it answers questions like: &gt; “Can we predict whether a person will <strong>develop depression</strong> (yes or no) based on their stress level, sleep habits, and social support?”</p>
+<p>It’s called <strong>binomial</strong> because the outcome has only <strong>two categories</strong> — like 0/1, yes/no, success/failure.</p>
+</section>
+<section id="why-use-binomial-logistic-regression-in-psychology" class="level4">
+<h4 class="anchored" data-anchor-id="why-use-binomial-logistic-regression-in-psychology">Why Use Binomial Logistic Regression in Psychology?</h4>
+<p>Psychologists often study <strong>binary outcomes</strong>: - Will someone relapse or not? - Will a therapy succeed or fail? - Will a child develop secure or insecure attachment?</p>
+<p>Binomial logistic regression is perfect because: - It can <strong>handle both continuous and categorical predictors</strong> (e.g., age, gender, test scores). - It <strong>estimates the probability</strong> of being in a certain group (e.g., probability of depression).</p>
+</section>
+<section id="how-does-binomial-logistic-regression-work" class="level4">
+<h4 class="anchored" data-anchor-id="how-does-binomial-logistic-regression-work">How Does Binomial Logistic Regression Work?</h4>
+<ol type="1">
+<li><p><strong>Start with a binary outcome</strong>:<br>
+Example: Diagnosed with PTSD (Yes = 1, No = 0).</p></li>
+<li><p><strong>Choose predictor variables</strong>:<br>
+Example: Trauma exposure, resilience score, coping strategy.</p></li>
+<li><p><strong>Build the model</strong>:<br>
+The model finds the best-fitting formula to <strong>predict the probability</strong> of the outcome happening.</p></li>
+<li><p><strong>Interpret the results</strong>:<br>
+It gives you <strong>odds ratios</strong> (we’ll explain this below) to understand how predictors affect the likelihood of the outcome.</p></li>
+</ol>
+</section>
+<section id="a-simple-psychology-example-1" class="level4">
+<h4 class="anchored" data-anchor-id="a-simple-psychology-example-1">A Simple Psychology Example</h4>
+<p>Suppose you’re studying whether college students <strong>drop out</strong> or <strong>stay enrolled</strong> based on: - Their stress levels - Their GPA - Their feelings of belonging</p>
+<p><strong>Binomial logistic regression</strong> will tell you: - How much stress, GPA, and belonging each influence the <strong>odds</strong> of dropping out. - The predicted <strong>probability</strong> that a student will drop out.</p>
+</section>
+<section id="key-terms-to-know" class="level4">
+<h4 class="anchored" data-anchor-id="key-terms-to-know">Key Terms to Know</h4>
+<ul>
+<li><strong>Odds Ratio (OR)</strong>:
+<ul>
+<li>If OR = 2 for stress, it means <strong>for every 1 unit increase in stress, the odds of dropping out double</strong>.</li>
+<li>If OR = 0.5 for GPA, it means <strong>higher GPA is associated with a lower chance of dropping out</strong>.</li>
+</ul></li>
+<li><strong>Logit</strong>:
+<ul>
+<li>The logistic regression actually models the <strong>log of the odds</strong>, not the odds themselves. (But usually you just interpret the odds ratio.)</li>
+</ul></li>
+<li><strong>Probability vs Odds</strong>:
+<ul>
+<li><strong>Probability</strong> is “1 out of 4 chances” (25%).</li>
+<li><strong>Odds</strong> are “1 to 3” (1 success vs 3 failures).</li>
+</ul></li>
+</ul>
+</section>
+<section id="important-assumptions" class="level4">
+<h4 class="anchored" data-anchor-id="important-assumptions">Important Assumptions</h4>
+<ul>
+<li><strong>Binary outcome</strong>: The dependent variable must have two categories.</li>
+<li><strong>Independence</strong>: Each case must be independent of others (no repeated measures on the same person).</li>
+<li><strong>Linearity in the logit</strong>: Predictor variables must relate linearly to the log odds (this is checked in advanced analyses).</li>
+</ul>
+</section>
+<section id="binomial-logistic-regression-vs-other-methods" class="level4">
+<h4 class="anchored" data-anchor-id="binomial-logistic-regression-vs-other-methods">Binomial Logistic Regression vs Other Methods</h4>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Method</th>
+<th style="text-align: left;">Best for</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>ANOVA</strong></td>
+<td style="text-align: left;">Comparing means between groups</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>MANOVA</strong></td>
+<td style="text-align: left;">Comparing multiple means across groups</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Linear Regression</strong></td>
+<td style="text-align: left;">Predicting a continuous outcome (e.g., GPA)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Binomial Logistic Regression</strong></td>
+<td style="text-align: left;">Predicting a binary outcome (e.g., yes/no, success/failure)</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="final-thought-3" class="level4">
+<h4 class="anchored" data-anchor-id="final-thought-3">Final Thought</h4>
+<p><strong>Binomial logistic regression is like building a psychological fortune teller 🔮</strong>:<br>
+It tells you, based on certain traits, <strong>how likely</strong> someone is to fall into one group or another.</p>
+<p>It’s incredibly useful because <strong>real-life decisions are often binary</strong> — did the therapy work or not? Will the client recover or relapse? Logistic regression models those realities.</p>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list" style="display: none">
@@ -2941,6 +3268,7 @@ Gruijters, S. L. K. (2019). Using principal component analysis to validate psych
 Navarro, D. J., &amp; Foxcroft, D. R. (2022). <em>Learning statistics with jamovi: A tutorial for psychology students and other beginners</em>. Danielle J. Navarro; David R. Foxcroft. <a href="https://doi.org/10.24384/HGC3-7P15">https://doi.org/10.24384/HGC3-7P15</a>
 </div>
 </div>
+</section>
 </section>
 </section>
 
